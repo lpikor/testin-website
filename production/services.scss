@@ -1,6 +1,8 @@
 .services {
     display: flex;
     flex-direction: column;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
     &__separator {
         display: none;
@@ -13,6 +15,10 @@
             color: $darkContent;
         }
     }
+}
+
+.home-banner .services {
+    align-items: center;
 }
 
 @media (min-width: 1440px) {

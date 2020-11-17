@@ -1,0 +1,31 @@
+.home-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: calc(100vh - 79px);
+    max-height: 700px;
+
+    &__motto {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    &__image {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home-banner {
+        height: calc(100vh - 215px);
+    }
+}
+
+@media (min-width: 1440px) {
+    .home-banner {
+        position: relative;
+        height: calc(100vh - 167px);
+    }
+}
