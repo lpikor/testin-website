@@ -1,0 +1,37 @@
+/*! 
+    Theme Name: Testin 2020
+    Author: Łukasz Pikor
+    Version: 1.0
+*/
+
+$lightContent: #ffffff;
+$darkContent: #3b5999;
+$whiteBackground: #ffffff;
+$lightBackground: #f7f6f6;
+$lpBtnGradientStart: #ff6624;
+$lpBtnGradientEnd: #bd3900;
+$lpGridGradientStart: #129fca;
+$lpGridGradientEnd: #186096;
+
+@import 'icon';
+@import 'panther';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $lightBackground;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
