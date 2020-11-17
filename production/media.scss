@@ -1,0 +1,15 @@
+.media {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__value {
+        margin-left: 1rem;
+    }
+}

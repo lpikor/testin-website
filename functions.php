@@ -11,6 +11,14 @@ function load_stylesheets() {
     wp_enqueue_style('styles');
 }
 
+function load_scripts() {
+    wp_register_script('script', get_template_directory_uri() . '/script.js', array(), 1, 1, 1);
+    wp_enqueue_script('script');
+}
+
 add_action('wp_enqueue_scripts', 'load_stylesheets');
+add_action('wp_enqueue_scripts', 'load_scripts');
+
+add_theme_support('menus');
 
 ?>
