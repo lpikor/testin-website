@@ -4,7 +4,9 @@
   "description": "Implementation of new Testin's website on WordPress using HTML, CSS, JS and PHP",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "node-sass --output-style compressed ./production/style.scss style.css",
+    "watch:css": "node-sass --output-style compressed ./production/style.scss style.css -w",
+    "start": "npm run build:css & npm run watch:css"
   },
   "repository": {
     "type": "git",
