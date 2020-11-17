@@ -1,0 +1,27 @@
+.services {
+    display: flex;
+    flex-direction: column;
+
+    &__separator {
+        display: none;
+    }
+
+    &__item {
+        font-weight: bolder;
+
+        &:hover {
+            color: $darkContent;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .services {
+        flex-direction: row;
+
+        &__separator {
+            display: inline;
+            padding: 0 1rem;
+        }
+    }
+}

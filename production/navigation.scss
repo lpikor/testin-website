@@ -15,14 +15,6 @@
         display: none;
     }
 
-    &__service {
-        font-weight: bolder;
-
-        &:hover {
-            color: $darkContent;
-        }
-    }
-
     &__main {
         flex-grow: 1;
         display: flex;
@@ -50,7 +42,7 @@
         }
 
         &__info {
-            flex-basis: 50%;
+            flex-basis: 60%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -60,6 +52,14 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 1rem 0;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .navigation {
+        &__info {
+            flex-basis: 50%;
         }
     }
 }

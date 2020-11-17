@@ -1,16 +1,16 @@
 <header class="navigation">
     <div class="navigation__top">
-        <p class="navigation__services">
-            <a href="#" class="navigation__service" rel="noopener noreferrer">Strony www</a>
-            <span class="navigation__separator">|</span>
-            <a href="#" class="navigation__service" rel="noopener noreferrer">Sklepy internetowe</a>
-            <span class="navigation__separator">|</span>
-            <a href="#" class="navigation__service" rel="noopener noreferrer">Agencja reklamowa</a>
+        <p class="services">
+            <a href="#" class="services__item" rel="noopener noreferrer">Strony www</a>
+            <span class="services__separator">|</span>
+            <a href="#" class="services__item" rel="noopener noreferrer">Sklepy internetowe</a>
+            <span class="services__separator">|</span>
+            <a href="#" class="services__item" rel="noopener noreferrer">Marketing internetowy</a>
         </p>
         <div class="navigation__info">
             <div class="language">
                 <a href="#" class="language__item language__item--active" rel="noopener noreferrer">PL</a>
-                <span class="navigation__separator">|</span>
+                <span class="language__separator">|</span>
                 <a href="#" class="language__item" rel="noopener noreferrer">EN</a>
             </div>
             <div class="media">
