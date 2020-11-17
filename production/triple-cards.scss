@@ -1,0 +1,83 @@
+.triple-cards {
+    padding: 1rem;
+
+    &__item {
+        position: relative;
+        text-align: center;
+        max-width: 400px;
+        margin: 2rem auto;
+        padding: 2rem;
+        border-radius: 20px;
+        background: $whiteBackground;
+    }
+
+    &__img {
+        width: 100%;
+        padding: 1rem;
+        transition: all .25s ease-out;
+    }
+
+    &__title {
+        margin-top: 1rem;
+        color: $primaryContent;
+        font-weight: normal;
+    }
+
+    &__description {
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+
+    &__btn {
+        display: block;
+        margin-top: 2rem;
+        color: $primaryContent;
+    }
+
+    &__item--shops &__title,
+    &__item--shops &__btn {
+        color: $shopContent;
+    }
+
+    &__item--marketing &__title,
+    &__item--marketing &__btn {
+        color: $marketingContent;
+    }
+
+    &__item:hover {
+        background: linear-gradient(0, $primaryGradientStart, $primaryGradientEnd);
+        color: $lightContent;
+
+        .triple-cards__img {
+            transform: scale(1.2) translateY(-30px);
+            transition: all .25s ease-out;
+        }
+
+        .triple-cards__title {
+            color: $lightContent;
+        }
+
+        .triple-cards__btn {
+            color: $lightContent;
+        }
+    }
+
+    &__item--shops:hover {
+        background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
+    }
+
+    &__item--marketing:hover {
+        background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
+    }
+}
+
+@media (min-width: 1024px) {
+    .triple-cards {
+        display: flex;
+        justify-content: center;
+
+        &__item {
+            margin: 0 1rem;
+        }
+    }
+}

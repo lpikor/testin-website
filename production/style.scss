@@ -6,10 +6,33 @@
 
 $lightContent: #ffffff;
 $darkContent: #3b5999;
+
+$primaryContent: #127bca;
+$primaryGradientStart: #00c5c3;
+$primaryGradientEnd: #127bca;
+
+$shopContent: #45cf1f;
+$shopGradientStart: #a6cf1f;
+$shopGradientEnd: #45cf1f;
+
+$marketingContent: #ff6624;
+$marketingGradientStart: #ffaf24;
+$marketingGradientEnd: #ff6624;
+
+$brandingContent: #ac24ff;
+$brandingGradientStart: #afc1ff;
+$brandingGradientEnd: #ac24ff;
+
+$printContent: #bb0f0f;
+$printGradientStart: #fc7c66;
+$printGradientEnd: #bb0f0f;
+
 $whiteBackground: #ffffff;
 $lightBackground: #f7f6f6;
+
 $lpBtnGradientStart: #ff6624;
 $lpBtnGradientEnd: #bd3900;
+
 $lpGridGradientStart: #129fca;
 $lpGridGradientEnd: #186096;
 
@@ -22,6 +45,9 @@ $lpGridGradientEnd: #186096;
 @import 'media';
 @import 'social-media';
 @import 'menu';
+@import 'services';
+@import 'home-banner';
+@import 'triple-cards';
 
 * {
     padding: 0;

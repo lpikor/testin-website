@@ -2,4 +2,6 @@
 
     get_template_part('template-parts/home-banner');
 
+    get_template_part('template-parts/service-cards');
+
 get_footer(); ?>
