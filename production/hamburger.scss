@@ -17,7 +17,7 @@
     position: absolute;
     height: 0.25rem;
     width: 100%;
-    background-color: #ffffff;
+    background-color: $darkContent;
     border-radius: 1rem;
     position: relative;
 }
@@ -30,7 +30,7 @@
     position: absolute;
     height: 0.25rem;
     width: 100%;
-    background-color: #ffffff;
+    background-color: $darkContent;
     border-radius: 1rem;
     content: '';
     bottom: .5rem;
@@ -45,7 +45,7 @@
     position: absolute;
     height: 0.25rem;
     width: 100%;
-    background-color: #ffffff;
+    background-color: $darkContent;
     border-radius: 1rem;
     content: '';
     top: .5rem;
