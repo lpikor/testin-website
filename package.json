@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lpikor/testin-website/issues"
   },
-  "homepage": "https://github.com/lpikor/testin-website#readme"
+  "homepage": "https://github.com/lpikor/testin-website#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
