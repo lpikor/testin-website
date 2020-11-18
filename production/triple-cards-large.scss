@@ -16,8 +16,8 @@
 
     &__img {
         padding: 1rem;
-        width: auto;
-        height: 350px;
+        max-width: 100%;
+        max-height: 400px;
         transition: all .25s ease-out;
     }
 
