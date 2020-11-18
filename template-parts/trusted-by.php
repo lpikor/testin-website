@@ -11,14 +11,14 @@
             <p class="testimonials__description">Dziękujemy Wam, moi drodzy za zaangażowanie i profesjonalizm, dobre projekty zawsze powstają razem, inspirowane tym iż lubimy to co robimy.</p>
         </article>
         <article class="testimonials__item">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/images/pawel-delag-portrait.webp" alt="" class="testimonials__img">
-            <h3 class="testimonials__title">Paweł Deląg</h3>
-            <p class="testimonials__description">Dziękujemy Wam, moi drodzy za zaangażowanie i profesjonalizm, dobre projekty zawsze powstają razem, inspirowane tym iż lubimy to co robimy.</p>
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/leon-knabit-portrait.webp" alt="" class="testimonials__img">
+            <h3 class="testimonials__title">O. Leon Knabit</h3>
+            <p class="testimonials__description">Specjalne serdeczne podziękowania za pomoc przesyłamy dla panów Krzysztofa i Janusza.</p>
         </article>
         <article class="testimonials__item">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/images/pawel-delag-portrait.webp" alt="" class="testimonials__img">
-            <h3 class="testimonials__title">Paweł Deląg</h3>
-            <p class="testimonials__description">Dziękujemy Wam, moi drodzy za zaangażowanie i profesjonalizm, dobre projekty zawsze powstają razem, inspirowane tym iż lubimy to co robimy.</p>
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/edyta-podkulska-portrait.webp" alt="" class="testimonials__img">
+            <h3 class="testimonials__title">Edyta Podkulska</h3>
+            <p class="testimonials__description">Lubię Testin. Zawsze wykonują swoją pracę dobrze. Mówię im, żeby było dobrze i jest dobrze. Polecam.</p>
         </article>
     </div>
 

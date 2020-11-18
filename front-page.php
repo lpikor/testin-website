@@ -10,4 +10,6 @@
 
     get_template_part('template-parts/trusted-by');
 
+    get_template_part('template-parts/service-cards-large');
+
 get_footer(); ?>
