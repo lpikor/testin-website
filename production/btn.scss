@@ -1,0 +1,58 @@
+.btn {
+    position: relative;
+    display: block;
+    text-align: left;
+    max-width: 350px;
+    padding: 1rem 1.5rem;
+    border-radius: 35px;
+    background: $whiteBackground;
+    color: $primaryContent;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-transform: lowercase;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        background: $lightBackground;
+        transform: translateY(-50%);
+    }
+
+    &::after {
+        content: '>';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        background: $whiteBackground;
+        font-size: 2rem;
+        transform: translateY(-50%);
+    }
+}
+
+@media (min-width: 320px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
+
+@media (min-width: 360px) {
+    .btn {
+        padding: 1rem 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .btn {
+        width: 350px;
+    }
+}
