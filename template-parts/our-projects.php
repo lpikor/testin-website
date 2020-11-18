@@ -38,4 +38,17 @@
         </a>
     </div>
 
+    <section class="see-more-projects">
+        <div class="see-more-projects__decoration">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/big-mobile.webp" class="see-more-projects__img" alt="">
+        </div>
+        <div class="see-more-projects__container">
+            <header class="see-more-projects__header">
+                <h3 class="see-more-projects__title">Zobacz więcej realizacji</h3>
+                <p class="see-more-projects__description">Oto niektóre z projektów, które udało nam się zrealizować dla naszych klientów. Może będą inspiracją dla Twojej strony www?</p>
+            </header>
+            <a href="#" class="see-more-projects__btn btn">realizacje</a>
+        </div>
+    </section>
+
 </section>

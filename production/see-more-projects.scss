@@ -1,0 +1,58 @@
+.see-more-projects {
+    padding: 2rem 0;
+
+    &__decoration {
+        display: none;
+    }
+
+    &__header {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 2rem;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-top: 2rem;
+    }
+
+    &__btn {
+        margin: 2rem auto 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .see-more-projects {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 8rem 0;
+        
+        &__decoration {
+            flex-basis: 50%;
+            display: block;
+        }
+
+        &__img {
+            width: 100%;
+        }
+
+        &__container {
+            flex-basis: 50%;
+            margin-top: 4rem;
+        }
+
+        &__header {
+            text-align: right;
+        }
+
+        &__title {
+            font-weight: normal;
+        }
+    }
+}

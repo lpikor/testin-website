@@ -1,7 +1,6 @@
 .section-background {
     text-align: center;
     padding: 4rem 1rem;
-    background: $whiteBackground;
 
     &__header {
         max-width: 600px;
@@ -33,7 +32,7 @@
             content: '';
             position: absolute;
             width: 73%;
-            height: 85%;
+            height: 55%;
             top: 0;
             right: 0;
             background: $whiteBackground;
