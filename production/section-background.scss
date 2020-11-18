@@ -1,0 +1,63 @@
+.section-background {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: $whiteBackground;
+
+    &__header {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        color: $primaryContent;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-background {
+        position: relative;
+        text-align: left;
+        margin-left: auto;
+        margin-right: 0;
+        padding: 4rem 2rem 0;
+        background: transparent;
+        z-index: 0;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 73%;
+            height: 85%;
+            top: 0;
+            right: 0;
+            background: $whiteBackground;
+            border-top-left-radius: 150px;
+            z-index: -1;
+        }
+
+        &__header {
+            max-width: 1300px;
+        }
+
+        &__title {
+            position: relative;
+            max-width: 600px;
+            margin-right: 0;
+            margin-left: auto;
+            font-size: 3rem;
+            font-weight: normal;
+        }
+
+        &__description {
+            max-width: 600px;
+            margin-right: 0;
+            margin-left: auto;
+        }
+    }
+}
