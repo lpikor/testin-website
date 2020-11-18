@@ -1,0 +1,40 @@
+.trusted-brands {
+    max-width: 1260px;
+    margin: 0 auto;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    &__title {
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        max-width: 100%;
+        margin: 0 auto;
+        max-height: 100px;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .trusted-brands {
+        &__container {
+            padding: 4rem 0;
+        }
+
+        &__title {
+            font-weight: normal;
+        }
+
+        &__item {
+            padding: 1rem 2rem;
+        }
+    }
+}

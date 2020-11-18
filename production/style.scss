@@ -36,23 +36,26 @@ $lpBtnGradientEnd: #bd3900;
 $lpGridGradientStart: #129fca;
 $lpGridGradientEnd: #186096;
 
-@import 'icon';
-@import 'panther';
-@import 'navigation';
+@import 'btn';
 @import 'hamburger';
-@import 'services';
+@import 'home-banner';
+@import 'icon';
 @import 'language';
 @import 'media';
-@import 'social-media';
 @import 'menu';
-@import 'services';
-@import 'home-banner';
-@import 'triple-cards';
-@import 'btn';
-@import 'questions-contact';
-@import 'section-background';
+@import 'navigation';
 @import 'our-projects';
+@import 'panther';
+@import 'questions-contact';
+@import 'services';
+@import 'section-background';
 @import 'see-more-projects';
+@import 'services';
+@import 'social-media';
+@import 'testimonials';
+@import 'triple-cards';
+@import 'trusted-brands';
+@import 'trusted-by';
 
 * {
     padding: 0;

@@ -8,4 +8,6 @@
 
     get_template_part('template-parts/our-projects');
 
+    get_template_part('template-parts/trusted-by');
+
 get_footer(); ?>
