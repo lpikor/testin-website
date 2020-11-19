@@ -18,4 +18,6 @@
 
     get_template_part('template-parts/let-us-help');
 
+    get_template_part('template-parts/home-contact-us');
+
 get_footer(); ?>

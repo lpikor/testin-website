@@ -1,0 +1,35 @@
+.home-contact {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    &__item {
+        padding: 2rem 1rem;
+    }
+
+    &__item-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    &__item-description {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    &__item-value {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home-contact {
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 800px;
+        margin: 4rem auto 0;
+    }
+}
