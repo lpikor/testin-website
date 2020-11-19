@@ -86,3 +86,32 @@ p {
 ul {
     list-style-type: none;
 }
+
+.home-contact-us-bottom {
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        background: url('assets/images/divider-background.webp');
+    }
+}
+
+@media (min-width: 1024px) {
+    .home-contact-us-bottom {
+        
+        &::after {
+            content: url('assets/images/circle.webp');
+            position: absolute;
+            top: 0;
+            left: -500px;
+        }
+    }
+}
