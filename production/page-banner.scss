@@ -280,3 +280,13 @@
         }
     }
 }
+
+
+
+.vidok-page-header {
+    & .page-banner-no-img {
+        &__title {
+            color: $vidokContent;
+        }
+    }
+}
