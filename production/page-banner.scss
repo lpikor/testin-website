@@ -323,3 +323,12 @@
     }
 }
 
+
+
+.career-page-header {
+    & .page-banner-img {
+        &__header {
+            max-width: 600px;
+        }
+    }
+}
