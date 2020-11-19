@@ -80,6 +80,7 @@
         &__img {
             position: relative;
             top: 55px;
+            width: 100%;
         }
 
         &__motto-container {
@@ -138,6 +139,39 @@
 
         &__title {
             font-size: 3rem;
+        }
+    }
+}
+
+.shops-page-header {
+    & .page-banner-motto {
+        &__title {
+            color: $shopContent;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .shops-page-header {
+        align-items: center;
+
+        & .page-banner-motto {
+    
+            &__img-container {
+                flex-basis: 55%;
+            }
+
+            &__img {
+                top: 42px;
+            }
+
+            &__title {
+                font-size: 3rem;
+            }
+            
+            &__motto-container {
+                flex-basis: 35%;
+            }
         }
     }
 }
