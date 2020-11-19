@@ -1,0 +1,143 @@
+.page-banner-no-img {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1rem;
+
+    &__header {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-weight: normal;
+        letter-spacing: 4px;
+        color: $primaryContent;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-banner-no-img {
+        display: flex;
+        justify-content: flex-end;
+        text-align: left;
+        max-width: 1300px;
+        margin: 8rem auto 0;
+
+        &__header {
+            flex-basis: 50%;
+            max-width: 400px;
+            margin: 0;
+        }
+    }
+}
+
+.page-banner-motto {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1rem;
+
+    &__img-container {
+        display: none;
+    }
+
+    &__motto-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__motto {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-banner-motto {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        text-align: right;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        &__img-container {
+            display: block;
+            flex-basis: 45%;
+        }
+
+        &__title {
+            color: $primaryContent;
+            font-size: 4rem;
+            text-transform: uppercase;
+        }
+
+        &__img {
+            position: relative;
+            top: 55px;
+        }
+
+        &__motto-container {
+            flex-basis: 45%;
+        }
+    }
+}
+
+.page-banner-img {
+    
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    &__img {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    &__header {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-weight: normal;
+        letter-spacing: 4px;
+        color: $primaryContent;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-banner-img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        max-width: 1300px;
+        margin: 8rem auto 0;
+
+        &__img-container {
+            flex-basis: 45%;
+        }
+
+        &__header {
+            flex-basis: 45%;
+            max-width: 400px;
+            margin: 0;
+        }
+
+        &__title {
+            font-size: 3rem;
+        }
+    }
+}
