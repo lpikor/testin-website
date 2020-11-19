@@ -16,4 +16,6 @@
 
     get_template_part('template-parts/home-blog');
 
+    get_template_part('template-parts/let-us-help');
+
 get_footer(); ?>

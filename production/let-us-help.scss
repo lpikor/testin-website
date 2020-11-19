@@ -1,0 +1,36 @@
+.let-us-help {
+    text-align: center;
+    padding: 4rem 1rem;
+
+    &__header {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    &__description {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .let-us-help {
+        max-width: 1300px;
+        margin: 0 auto;
+
+        &__header {
+            text-align: left;
+            margin-bottom: 4rem;
+            margin-left: 0;
+            padding: 0 2rem;
+        }
+        &__title {
+            font-weight: normal;
+        }
+    }
+}
