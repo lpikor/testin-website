@@ -300,3 +300,13 @@
         }
     }
 }
+
+
+
+.gamrat-wpc-page-header {
+    & .page-banner-no-img {
+        &__title {
+            color: $gamratWpcContent;
+        }
+    }
+}
