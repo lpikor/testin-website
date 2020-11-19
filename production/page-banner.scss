@@ -196,3 +196,11 @@
         }
     }
 }
+
+.polska-kulturalna-page-header {
+    & .page-banner-no-img {
+        &__title {
+            color: $polskaKulturalnaContent;
+        }
+    }
+}
