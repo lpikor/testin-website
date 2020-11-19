@@ -197,6 +197,8 @@
     }
 }
 
+
+
 .polska-kulturalna-page-header {
     & .page-banner-no-img {
         &__title {
@@ -205,10 +207,22 @@
     }
 }
 
+
+
 .artur-kucharzyk-page-header {
     & .page-banner-no-img {
         &__title {
             color: $arturKucharzykContent;
+        }
+    }
+}
+
+
+
+.allplans-page-header {
+    & .page-banner-no-img {
+        &__title {
+            color: $allplansContent;
         }
     }
 }
