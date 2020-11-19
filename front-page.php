@@ -12,4 +12,6 @@
 
     get_template_part('template-parts/service-cards-large');
 
+    get_template_part('template-parts/questions-contact');
+
 get_footer(); ?>
