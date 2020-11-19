@@ -22,4 +22,6 @@
 
     get_template_part('template-parts/home-contact-us-bottom');
 
+    get_template_part('template-parts/home-footer');
+
 get_footer(); ?>
