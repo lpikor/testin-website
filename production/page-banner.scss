@@ -226,3 +226,17 @@
         }
     }
 }
+
+
+
+.pogotowie-warzywne-page-header {
+    & .page-banner-no-img {
+        &__header {
+            max-width: 460px;
+        }
+        
+        &__title {
+            color: $pogotowieWarzywneContent;
+        }
+    }
+}
