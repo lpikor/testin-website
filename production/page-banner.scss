@@ -312,3 +312,14 @@
         }
     }
 }
+
+
+
+.single-post-page-header {
+    & .page-banner-no-img {
+        &__header {
+            max-width: 1000px;
+        }
+    }
+}
+
