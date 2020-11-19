@@ -290,3 +290,13 @@
         }
     }
 }
+
+
+
+.rodo-maruta-page-header {
+    & .page-banner-no-img {
+        &__title {
+            color: $rodoMarutaContent;
+        }
+    }
+}
