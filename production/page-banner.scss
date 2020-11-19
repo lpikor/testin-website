@@ -61,7 +61,7 @@
     .page-banner-motto {
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
         text-align: right;
         max-width: 1300px;
         margin: 0 auto;
@@ -174,13 +174,24 @@
 
 
 @media (min-width: 1024px) {
-    .marketing-page-header {
-        align-items: center;
-        
+    .branding-page-header {
         & .page-banner-motto {
             &__title {
                 text-align: center;
                 color: $brandingContent;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    .print-page-header {
+        & .page-banner-motto {
+            &__title {
+                text-align: center;
+                color: $printContent;
             }
         }
     }
