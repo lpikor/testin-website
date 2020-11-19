@@ -250,3 +250,13 @@
         }
     }
 }
+
+
+
+.elproma-page-header {
+    & .page-banner-no-img {
+        &__title {
+            color: $elpromaContent;
+        }
+    }
+}
