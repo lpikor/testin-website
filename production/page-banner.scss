@@ -234,9 +234,19 @@
         &__header {
             max-width: 460px;
         }
-        
+
         &__title {
             color: $pogotowieWarzywneContent;
+        }
+    }
+}
+
+
+
+.zdrojowisko-page-header {
+    & .page-banner-no-img {
+        &__title {
+            color: $zdrojowiskoContent;
         }
     }
 }
