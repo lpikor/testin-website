@@ -107,6 +107,7 @@
     }
 
     &__title {
+        margin-top: 2rem;
         font-weight: normal;
         letter-spacing: 4px;
         color: $primaryContent;
@@ -138,6 +139,7 @@
         }
 
         &__title {
+            margin-top: 0;
             font-size: 3rem;
         }
     }
