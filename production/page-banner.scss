@@ -260,3 +260,13 @@
         }
     }
 }
+
+
+
+.boram-page-header {
+    & .page-banner-no-img {
+        &__title {
+            color: $boramContent;
+        }
+    }
+}
