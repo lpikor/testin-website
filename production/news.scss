@@ -1,0 +1,16 @@
+.news {
+
+    &__item-link {
+        display: inline-block;
+        padding: .5rem;
+        margin: .5rem;
+    }
+
+    &__item-link:hover {
+        font-weight: bolder;
+    }
+
+    &__item-link:active {
+        color: $darkContent;
+    }
+}

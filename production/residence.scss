@@ -1,0 +1,16 @@
+.residence {
+    padding: 1rem;
+
+    &:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__contact {
+        display: block;
+        margin-top: 0.5rem;
+    }
+}

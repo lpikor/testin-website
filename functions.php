@@ -16,8 +16,18 @@ function load_scripts() {
     wp_enqueue_script('script');
 }
 
+function testin_register_nav_menus() {
+    register_nav_menus(
+        array(
+            'main_menu' => __('Main Menu', 'Main Menu'),
+            'offer_menu' => __('Offer Menu', 'Offer Menu')
+        )
+    );
+}
+
 add_action('wp_enqueue_scripts', 'load_stylesheets');
 add_action('wp_enqueue_scripts', 'load_scripts');
+add_action('after_setup_theme', 'testin_register_nav_menus', 0);
 
 add_theme_support('menus');
 
