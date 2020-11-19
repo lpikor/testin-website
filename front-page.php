@@ -14,4 +14,6 @@
 
     get_template_part('template-parts/questions-contact');
 
+    get_template_part('template-parts/home-blog');
+
 get_footer(); ?>
