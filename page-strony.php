@@ -10,4 +10,6 @@
 
     get_template_part('template-parts/our-projects');
 
+    get_template_part('template-parts/websites-encouragement');
+
 get_footer(); ?>
