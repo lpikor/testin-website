@@ -1,0 +1,49 @@
+.offer-child-form {
+    text-align: center;
+    padding: 2rem 0;
+    color: $lightContent;
+    background: linear-gradient($primaryGradientStart, $primaryGradientEnd);
+
+    &__title {
+        font-weight: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1024px) {
+    .offer-child-form {
+        position: relative;
+        max-width: 1600px;
+        padding: 4rem 0 10rem;
+        border-top-right-radius: 150px;
+        border-bottom-right-radius: 50px;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 100px;
+            width: 100%;
+            border-top-left-radius: 50px;
+            background: url(assets/images/divider-background.webp);
+        }
+
+        &__title {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: 0;
+            padding-right: 8rem;
+            font-size: 3rem;
+        }
+    }
+
+    .form-group {
+        width: 100%;
+
+        & .btn {
+            align-self: flex-end;
+        }
+    }
+}
