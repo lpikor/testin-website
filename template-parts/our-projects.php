@@ -6,32 +6,32 @@
     </header>
     
     <div class="our-projects">
-        <a href="#">
+        <a href="<?php echo get_permalink(9635); ?>">
             <article class="our-projects__item">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/allplans-showcase.webp" alt="Realizacja Allplans" class="our-projects__img">
             </article>
         </a>
-        <a href="#">
+        <a href="<?php echo get_permalink(9649); ?>">
             <article class="our-projects__item">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/maruta-showcase.webp" alt="Realizacja Maruta" class="our-projects__img">
             </article>
         </a>
-        <a href="#">
+        <a href="<?php echo get_permalink(9647); ?>">
             <article class="our-projects__item">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/vidok-showcase.webp" alt="Realizacja Vidok" class="our-projects__img">
             </article>
         </a>
-        <a href="#">
+        <a href="<?php echo get_permalink(9645); ?>">
             <article class="our-projects__item">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/magnum-showcase.webp" alt="Realizacja Magnum" class="our-projects__img">
             </article>
         </a>
-        <a href="#">
+        <a href="<?php echo get_permalink(9631); ?>">
             <article class="our-projects__item">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/polskakulturalna-showcase.webp" alt="Realizacja Polska Kulturalna" class="our-projects__img">
             </article>
         </a>
-        <a href="#">
+        <a href="<?php echo get_permalink(9651); ?>">
             <article class="our-projects__item">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/gamrat-showcase.webp" alt="Realizacja Gamrat" class="our-projects__img">
             </article>
@@ -47,7 +47,7 @@
                 <h3 class="see-more-projects__title">Zobacz więcej realizacji</h3>
                 <p class="see-more-projects__description">Oto niektóre z projektów, które udało nam się zrealizować dla naszych klientów. Może będą inspiracją dla Twojej strony www?</p>
             </header>
-            <a href="#" class="see-more-projects__btn btn">realizacje</a>
+            <a href="<?php echo get_permalink(9596); ?>" class="see-more-projects__btn btn">Realizacje</a>
         </div>
     </section>
 
