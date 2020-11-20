@@ -2,4 +2,6 @@
 
     get_template_part('template-parts/offer-page-header');
 
+    get_template_part('template-parts/offer-service-cards-large');
+
 get_footer(); ?>
