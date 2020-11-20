@@ -6,4 +6,6 @@
 
     get_template_part('template-parts/websites-advantages');
 
+    get_template_part('template-parts/websites-opportunities');
+
 get_footer(); ?>

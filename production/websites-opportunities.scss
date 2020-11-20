@@ -1,0 +1,37 @@
+.websites-opportunities {
+    padding: 1rem;
+
+    &__item {
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    &__img {
+        height: 1.5rem;
+    }
+
+    &__title {
+        margin-top: 2rem;
+        font-weight: normal;
+    }
+
+    &__description {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .websites-opportunities {
+        display: flex;
+
+        max-width: 1300px;
+        margin: 0 auto;
+
+        &__item {
+            flex-basis: 0;
+            flex-grow: 1;
+        }
+    }
+}

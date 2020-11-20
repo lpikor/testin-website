@@ -30,7 +30,7 @@
                     <a href="https://www.facebook.com/Agencja.Interaktywna.Testin" target="_blank" rel="noopener noreferrer">
                         <img src="<?php bloginfo('template_directory'); ?>/assets/images/facebook-icon-dark.webp" alt="Strona Testin na Facebooku" class="social-media__icon icon icon--small">
                     </a>
-                    <a href="https://www.facebook.com/Agencja.Interaktywna.Testin" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/company/testin.pl/" target="_blank" rel="noopener noreferrer">
                         <img src="<?php bloginfo('template_directory'); ?>/assets/images/linkedin-icon-dark.webp" alt="Strona Testin na LinkedInie" class="social-media__icon icon icon--small">
                     </a>
                 </div>
