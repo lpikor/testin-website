@@ -1,11 +1,11 @@
 <header class="navigation">
     <div class="navigation__top">
         <p class="services">
-            <a href="#" class="services__item" rel="noopener noreferrer">Strony www</a>
+            <a href="<?php echo get_permalink(9622); ?>" class="services__item" rel="noopener noreferrer">Strony www</a>
             <span class="services__separator">|</span>
-            <a href="#" class="services__item" rel="noopener noreferrer">Sklepy internetowe</a>
+            <a href="<?php echo get_permalink(9614); ?>" class="services__item" rel="noopener noreferrer">Sklepy internetowe</a>
             <span class="services__separator">|</span>
-            <a href="#" class="services__item" rel="noopener noreferrer">Marketing internetowy</a>
+            <a href="<?php echo get_permalink(9616); ?>" class="services__item" rel="noopener noreferrer">Marketing internetowy</a>
         </p>
         <div class="navigation__info">
             <div class="language">
