@@ -1,0 +1,73 @@
+.offer-child-contact-us {
+    text-align: center;
+    margin: 4rem 0;
+    color: $lightContent;
+    background: linear-gradient($primaryGradientStart, $primaryGradientEnd);
+
+    &__container {
+        padding: 2rem 1rem;
+    }
+
+    &__header {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-weight: normal;
+    }
+
+    &__description {
+        margin-top: 2rem;
+    }
+
+    &__btn {
+        margin: 2rem auto 0;
+
+        &::before {
+            right: -10px;
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(0, $primaryGradientStart, $primaryGradientEnd);
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .offer-child-contact-us {
+        position: relative;
+        text-align: left;
+        max-width: 1600px;
+        margin: 4rem 0 4rem auto;
+        padding: 12rem 0 6rem;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 200px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            height: 100px;
+            width: 100%;
+            border-top-left-radius: 50px;
+            background: url('assets/images/divider-background.webp');
+        }
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        &__header {
+            margin: 0;
+        }
+
+        &__btn {
+            margin: 0;
+        }
+    }
+}
