@@ -332,3 +332,20 @@
         }
     }
 }
+
+
+
+@media (min-width: 1024px) {
+    .marketing-page-header {
+        & .page-banner-motto {
+            &__img {
+                top: 17px;
+            }
+            
+            &__title {
+                color: $marketingContent;
+                line-height: 1;
+            }
+        }
+    }
+}
