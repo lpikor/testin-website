@@ -1,4 +1,6 @@
-.offer-child-how-steps {
+
+
+.offer-child-why-trust-us {
     text-align: center;
     margin-top: 4rem;
     padding: 1rem;
@@ -18,21 +20,35 @@
     &__description {
         margin-top: 2rem;
     }
+
+    &__img {
+        display: none;
+    }
 }
 
 @media (min-width: 1024px) {
-    .offer-child-how-steps {
+    .offer-child-why-trust-us {
         text-align: left;
         max-width: 1300px;
         margin: 8rem auto 0;
 
         &__header {
-            max-width: 800px;
+            max-width: 900px;
             margin-right: 0;
         }
 
         &__title {
             font-size: 3rem;
+        }
+
+        &__description {
+            max-width: 650px;
+        }
+
+        &__img {
+            display: block;
+            width: 100%;
+            margin-top: 2rem;
         }
     }
 }

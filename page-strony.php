@@ -16,4 +16,6 @@
 
     get_template_part('template-parts/websites-how-steps');
 
+    get_template_part('template-parts/websites-why-trust-us');
+
 get_footer(); ?>
