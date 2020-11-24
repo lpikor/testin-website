@@ -14,4 +14,6 @@
 
     get_template_part('template-parts/websites-form');
 
+    get_template_part('template-parts/websites-how-steps');
+
 get_footer(); ?>

@@ -1,0 +1,99 @@
+
+
+.steps {
+    padding: 1rem 0;
+    
+    &__item {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+
+    &__img {
+        display: none;
+    }
+
+    &__count-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+        border-radius: 100px;
+        background: $whiteBackground;
+    }
+
+    &__count {
+        color: $primaryContent;
+        font-size: 4rem;
+    }
+
+    &__title {
+        margin-top: 2rem;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .steps {
+        &__item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 0;
+        }
+
+        &__item:nth-child(2) {
+            margin-left: 50px;
+        }
+
+        &__item:nth-child(3) {
+            margin-left: 100px;
+        }
+
+        &__item:nth-child(4) {
+            margin-left: 150px;
+        }
+
+        &__item:nth-child(5) {
+            margin-left: 200px;
+        }
+
+        &__content {
+            text-align: left;
+            max-width: 500px;
+        }
+
+        &__img {
+            display: block;
+            width: 300px;
+        }
+
+        &__count {
+            position: relative;
+            transition: all .25s ease;
+        }
+
+        &__count-container {
+            margin: 0;
+        }
+
+        &__item:hover &__count {
+            color: $lightBackground;
+            font-size: 6rem;
+            transform: translateY(43px);
+            transition: all .25s ease;
+        }
+
+        &__item:hover &__count-container {
+            background: linear-gradient($primaryGradientStart, $primaryGradientEnd);
+        }
+    }
+}
