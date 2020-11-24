@@ -26,7 +26,7 @@
             left: 0;
             height: 100px;
             width: 100%;
-            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
             background: url(assets/images/divider-background.webp);
         }
 
@@ -45,5 +45,18 @@
         & .btn {
             align-self: flex-end;
         }
+    }
+}
+
+.websites-form-2 {
+    position: relative;
+    top: 100px;
+
+    &.offer-child-form {
+        border-bottom-right-radius: 0;
+    }
+
+    &.offer-child-form::after {
+        content: none;
     }
 }
