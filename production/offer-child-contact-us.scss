@@ -44,6 +44,17 @@
             background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
         }
     }
+
+    &.marketing-contact-us {
+        background: linear-gradient($marketingGradientStart, $marketingGradientEnd);
+    }
+
+    .marketing-contact-us &__btn {
+        color: $marketingContent;
+        &::before {
+            background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
+        }
+    }
 }
 
 @media (min-width: 1024px) {
@@ -85,6 +96,10 @@
 
         &.shops-contact-us::before {
             background: url('assets/images/divider-background-green.webp');
+        }
+
+        &.marketing-contact-us::before {
+            background: url('assets/images/divider-background-orange.webp');
         }
     }
 }
