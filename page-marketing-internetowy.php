@@ -6,4 +6,6 @@
 
     get_template_part('template-parts/marketing-advantages');
 
+    get_template_part('template-parts/marketing-encouragement');
+
 get_footer(); ?>

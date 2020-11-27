@@ -61,9 +61,13 @@
             max-width: 100%;
             padding: 2rem;
         }
-        
+
         &.shops-encouragement::before {
             background: url('assets/images/divider-background-green.webp');
+        }
+        
+        &.marketing-encouragement::before {
+            background: url('assets/images/divider-background-orange.webp');
         }
     }
 }
