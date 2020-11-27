@@ -6,4 +6,6 @@
 
     get_template_part('template-parts/print-advantages');
 
+    get_template_part('template-parts/print-encouragement');
+
 get_footer(); ?>
