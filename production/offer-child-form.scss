@@ -2,12 +2,16 @@
     text-align: center;
     padding: 2rem 0;
     color: $lightContent;
-    background: linear-gradient($primaryGradientStart, $primaryGradientEnd);
+    background: linear-gradient(0, $primaryGradientStart, $primaryGradientEnd);
 
     &__title {
         font-weight: normal;
         letter-spacing: 4px;
         text-transform: uppercase;
+    }
+
+    &.shops-form {
+        background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
     }
 }
 
@@ -27,7 +31,7 @@
             height: 100px;
             width: 100%;
             border-bottom-right-radius: 50px;
-            background: url(assets/images/divider-background.webp);
+            background: url('assets/images/divider-background.webp');
         }
 
         &__title {
@@ -36,6 +40,10 @@
             margin-right: 0;
             padding-right: 8rem;
             font-size: 3rem;
+        }
+
+        &.shops-form::after {
+            background: url('assets/images/divider-background-green.webp');
         }
     }
 

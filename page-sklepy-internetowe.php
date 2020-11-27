@@ -10,7 +10,7 @@
 
     get_template_part('template-parts/shops-encouragement');
 
-    get_template_part('template-parts/websites-form');
+    get_template_part('template-parts/shops-form');
 
     get_template_part('template-parts/websites-how-steps');
 
