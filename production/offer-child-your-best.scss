@@ -65,5 +65,9 @@
         &.shops-your-best::before {
             background: url(assets/images/divider-background-green.webp);
         }
+
+        &.marketing-your-best::before {
+            background: url(assets/images/divider-background-orange.webp);
+        }
     }
 }
