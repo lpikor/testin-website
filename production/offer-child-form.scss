@@ -14,8 +14,24 @@
         background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
     }
 
+    &.shops-form .btn {
+        color: $shopContent;
+    }
+
     &.marketing-form {
         background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
+    }
+
+    &.marketing-form .btn {
+        color: $marketingContent;
+    }
+
+    &.branding-form {
+        background: linear-gradient(0, $brandingGradientStart, $brandingGradientEnd);
+    }
+
+    &.branding-form .btn {
+        color: $brandingContent;
     }
 }
 
@@ -52,6 +68,10 @@
 
         &.marketing-form::after {
             background: url('assets/images/divider-background-orange.webp');
+        }
+
+        &.branding-form::after {
+            background: url('assets/images/divider-background-purple.webp');
         }
     }
 

@@ -8,4 +8,6 @@
 
     get_template_part('template-parts/branding-encouragement');
 
+    get_template_part('template-parts/branding-form');
+
 get_footer(); ?>
