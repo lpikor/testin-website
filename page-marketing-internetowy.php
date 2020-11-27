@@ -12,4 +12,6 @@
 
     get_template_part('template-parts/marketing-how-steps');
 
+    get_template_part('template-parts/marketing-stats');
+
 get_footer(); ?>

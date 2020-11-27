@@ -11,6 +11,11 @@ function load_stylesheets() {
     wp_enqueue_style('styles');
 }
 
+function load_scripts_easypiechart() {
+    wp_register_script('easypiechart', get_template_directory_uri() . '/assets/scripts/easypiechart.js', array(), 1, 1, 1);
+    wp_enqueue_script('easypiechart');
+}
+
 function load_scripts() {
     wp_register_script('script', get_template_directory_uri() . '/script.js', array(), 1, 1, 1);
     wp_enqueue_script('script');
@@ -26,6 +31,7 @@ function testin_register_nav_menus() {
 }
 
 add_action('wp_enqueue_scripts', 'load_stylesheets');
+add_action('wp_enqueue_scripts', 'load_scripts_easypiechart');
 add_action('wp_enqueue_scripts', 'load_scripts');
 add_action('after_setup_theme', 'testin_register_nav_menus', 0);
 
