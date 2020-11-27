@@ -28,6 +28,10 @@
     .marketing-stats &__item-value {
         color: $marketingContent;
     }
+
+    .branding-stats &__item-value {
+        color: $brandingContent;
+    }
 }
 
 @media (min-width: 1024px) {

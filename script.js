@@ -20,3 +20,25 @@ marketingCharts.forEach(chart => {
         'size': 150
     });
 });
+
+const brandingCharts = document.querySelectorAll('.branding-stats .stats__item-chart');
+brandingCharts.forEach(chart => {
+    new EasyPieChart(chart, {
+        'barColor': '#ac24ff',
+        'scaleLength': 0,
+        'lineCap': 'square',
+        'lineWidth': 7,
+        'size': 150
+    });
+});
+
+const printCharts = document.querySelectorAll('.print-stats .stats__item-chart');
+printCharts.forEach(chart => {
+    new EasyPieChart(chart, {
+        'barColor': '#ff6624',
+        'scaleLength': 0,
+        'lineCap': 'square',
+        'lineWidth': 7,
+        'size': 150
+    });
+});

@@ -12,4 +12,6 @@
 
     get_template_part('template-parts/branding-how-steps');
 
+    get_template_part('template-parts/branding-stats');
+
 get_footer(); ?>
