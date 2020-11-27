@@ -16,6 +16,10 @@
     &__description {
         margin-top: 1rem;
     }
+
+    .shops-section-background &__title {
+        color: $shopContent;
+    }
 }
 
 @media (min-width: 1024px) {
