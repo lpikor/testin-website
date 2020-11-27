@@ -20,6 +20,6 @@
 
     get_template_part('template-parts/shops-your-best');
 
-    get_template_part('template-parts/websites-form-2');
+    get_template_part('template-parts/shops-form-2');
 
 get_footer(); ?>
