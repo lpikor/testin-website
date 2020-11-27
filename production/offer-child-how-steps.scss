@@ -26,6 +26,10 @@
     .marketing-how-steps &__title {
         color: $marketingContent;
     }
+
+    .branding-how-steps &__title {
+        color: $brandingContent;
+    }
 }
 
 @media (min-width: 1024px) {

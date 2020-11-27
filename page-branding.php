@@ -10,4 +10,6 @@
 
     get_template_part('template-parts/branding-form');
 
+    get_template_part('template-parts/branding-how-steps');
+
 get_footer(); ?>
