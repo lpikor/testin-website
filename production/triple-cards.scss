@@ -57,6 +57,10 @@
     .marketing-advantages &__title {
         color: $marketingContent;
     }
+
+    .branding-advantages &__title {
+        color: $brandingContent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -102,6 +106,10 @@
 
         .marketing-advantages &__item:hover {
             background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
+        }
+
+        .branding-advantages &__item:hover {
+            background: linear-gradient(0, $brandingGradientStart, $brandingGradientEnd);
         }
     }
 }
