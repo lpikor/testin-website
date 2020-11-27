@@ -50,7 +50,8 @@
 
         &__title {
             position: relative;
-            max-width: 600px;
+            width: 65%;
+            max-width: 850px;
             margin-right: 0;
             margin-left: auto;
             font-size: 3rem;
@@ -62,5 +63,8 @@
             margin-right: 0;
             margin-left: auto;
         }
+    }
+    .projects-section-background {
+        margin: 8rem 0;
     }
 }
