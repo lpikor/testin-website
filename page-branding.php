@@ -14,4 +14,6 @@
 
     get_template_part('template-parts/branding-stats');
 
+    get_template_part('template-parts/branding-why-trust-us');
+
 get_footer(); ?>

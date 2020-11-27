@@ -26,7 +26,8 @@
     }
 
     .shops-why-trust-us &__img,
-    .marketing-why-trust-us &__img {
+    .marketing-why-trust-us &__img,
+    .branding-why-trust-us &__img {
         display: none;
     }
 
@@ -36,6 +37,10 @@
 
     .marketing-why-trust-us &__title {
         color: $marketingContent;
+    }
+
+    .branding-why-trust-us &__title {
+        color: $brandingContent;
     }
 }
 
