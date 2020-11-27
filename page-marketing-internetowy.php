@@ -14,4 +14,6 @@
 
     get_template_part('template-parts/marketing-stats');
 
+    get_template_part('template-parts/marketing-why-trust-us');
+
 get_footer(); ?>

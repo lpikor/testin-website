@@ -25,12 +25,17 @@
         display: none;
     }
 
+    .shops-why-trust-us &__img,
+    .marketing-why-trust-us &__img {
+        display: none;
+    }
+
     .shops-why-trust-us &__title {
         color: $shopContent;
     }
 
-    .shops-why-trust-us &__img {
-        display: none;
+    .marketing-why-trust-us &__title {
+        color: $marketingContent;
     }
 }
 
