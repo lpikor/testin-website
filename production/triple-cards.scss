@@ -53,6 +53,10 @@
     .shops-advantages &__title {
         color: $shopContent;
     }
+
+    .marketing-advantages &__title {
+        color: $marketingContent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -94,6 +98,10 @@
 
         .shops-advantages &__item:hover {
             background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
+        }
+
+        .marketing-advantages &__item:hover {
+            background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
         }
     }
 }

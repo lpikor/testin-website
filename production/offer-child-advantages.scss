@@ -18,6 +18,14 @@
     &__description {
         margin-top: 2rem;
     }
+
+    .shops-advantages &__title {
+        color: $shopContent;
+    }
+
+    .marketing-advantages &__title {
+        color: $marketingContent;
+    }
 }
 
 @media (min-width: 1024px) {
