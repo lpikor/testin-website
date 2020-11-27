@@ -8,4 +8,6 @@
 
     get_template_part('template-parts/marketing-encouragement');
 
+    get_template_part('template-parts/marketing-form');
+
 get_footer(); ?>

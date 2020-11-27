@@ -13,6 +13,10 @@
     &.shops-form {
         background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
     }
+
+    &.marketing-form {
+        background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
+    }
 }
 
 @media (min-width: 1024px) {
@@ -44,6 +48,10 @@
 
         &.shops-form::after {
             background: url('assets/images/divider-background-green.webp');
+        }
+
+        &.marketing-form::after {
+            background: url('assets/images/divider-background-orange.webp');
         }
     }
 
