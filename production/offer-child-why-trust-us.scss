@@ -24,6 +24,14 @@
     &__img {
         display: none;
     }
+
+    .shops-why-trust-us &__title {
+        color: $shopContent;
+    }
+
+    .shops-why-trust-us &__img {
+        display: none;
+    }
 }
 
 @media (min-width: 1024px) {

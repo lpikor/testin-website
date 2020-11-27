@@ -16,7 +16,7 @@
 
     get_template_part('template-parts/shops-opportunities');
 
-    get_template_part('template-parts/websites-why-trust-us');
+    get_template_part('template-parts/shops-why-trust-us');
 
     get_template_part('template-parts/websites-your-best');
 
