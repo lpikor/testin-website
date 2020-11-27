@@ -69,5 +69,13 @@
         &.marketing-encouragement::before {
             background: url('assets/images/divider-background-orange.webp');
         }
+        
+        &.marketing-encouragement::before {
+            background: url('assets/images/divider-background-orange.webp');
+        }
+        
+        &.branding-encouragement::before {
+            background: url('assets/images/divider-background-purple.webp');
+        }
     }
 }

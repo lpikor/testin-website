@@ -6,4 +6,6 @@
 
     get_template_part('template-parts/branding-advantages');
 
+    get_template_part('template-parts/branding-encouragement');
+
 get_footer(); ?>
