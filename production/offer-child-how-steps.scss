@@ -30,6 +30,10 @@
     .branding-how-steps &__title {
         color: $brandingContent;
     }
+
+    .print-how-steps &__title {
+        color: $printContent;
+    }
 }
 
 @media (min-width: 1024px) {

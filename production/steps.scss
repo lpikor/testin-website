@@ -50,6 +50,10 @@
     .branding-how-steps &__count {
         color: $brandingContent;
     }
+    
+    .print-how-steps &__count {
+        color: $printContent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -122,6 +126,10 @@
 
         .branding-how-steps &__item:hover &__count-container {
             background: linear-gradient(0, $brandingGradientStart, $brandingGradientEnd);
+        }
+
+        .print-how-steps &__item:hover &__count-container {
+            background: linear-gradient(0, $printGradientStart, $printGradientEnd);
         }
     }
 }

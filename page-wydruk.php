@@ -10,4 +10,6 @@
 
     get_template_part('template-parts/print-form');
 
+    get_template_part('template-parts/print-how-steps');
+
 get_footer(); ?>
