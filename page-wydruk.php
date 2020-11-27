@@ -14,4 +14,6 @@
 
     get_template_part('template-parts/print-stats');
 
+    get_template_part('template-parts/print-why-trust-us');
+
 get_footer(); ?>
