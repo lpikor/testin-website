@@ -12,7 +12,7 @@
 
     get_template_part('template-parts/shops-form');
 
-    get_template_part('template-parts/websites-how-steps');
+    get_template_part('template-parts/shops-how-steps');
 
     get_template_part('template-parts/websites-opportunities');
 

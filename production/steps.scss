@@ -38,6 +38,10 @@
     &__description {
         margin-top: 2rem;
     }
+
+    .shops-how-steps &__count {
+        color: $shopContent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -85,6 +89,10 @@
             margin: 0;
         }
 
+        &__title {
+            font-size: 2rem;
+        }
+
         &__item:hover &__count {
             color: $lightBackground;
             font-size: 6rem;
@@ -93,7 +101,11 @@
         }
 
         &__item:hover &__count-container {
-            background: linear-gradient($primaryGradientStart, $primaryGradientEnd);
+            background: linear-gradient(0, $primaryGradientStart, $primaryGradientEnd);
+        }
+
+        .shops-how-steps &__item:hover &__count-container {
+            background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
         }
     }
 }

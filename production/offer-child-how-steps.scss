@@ -18,6 +18,10 @@
     &__description {
         margin-top: 2rem;
     }
+
+    .shops-how-steps &__title {
+        color: $shopContent;
+    }
 }
 
 @media (min-width: 1024px) {
