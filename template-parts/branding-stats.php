@@ -1,7 +1,7 @@
 <section class="section offer-child-stats branding-stats">
         <header class="offer-child-stats__header">
-            <h2 class="offer-child-stats__title">Marketing w liczbach</h2>
-            <p class="offer-child-stats__description">Potrzebujesz dowodów na to, że marketing w internecie jest skuteczny i potrzebny również Twojej firmie? Zobacz, co dzięki niemu udało nam się osiągnąć!</p>
+            <h2 class="offer-child-stats__title">Co Ci da branding?</h2>
+            <p class="offer-child-stats__description">Zastanawiasz się, czy warto postawić na współpracę z profesjonalną agencją?</p>
         </header>
         <div class="stats">
             <article class="stats__item">

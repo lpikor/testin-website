@@ -35,7 +35,7 @@ brandingCharts.forEach(chart => {
 const printCharts = document.querySelectorAll('.print-stats .stats__item-chart');
 printCharts.forEach(chart => {
     new EasyPieChart(chart, {
-        'barColor': '#ff6624',
+        'barColor': '#bb0f0f',
         'scaleLength': 0,
         'lineCap': 'square',
         'lineWidth': 7,

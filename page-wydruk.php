@@ -12,4 +12,6 @@
 
     get_template_part('template-parts/print-how-steps');
 
+    get_template_part('template-parts/print-stats');
+
 get_footer(); ?>

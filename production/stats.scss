@@ -32,6 +32,10 @@
     .branding-stats &__item-value {
         color: $brandingContent;
     }
+
+    .print-stats &__item-value {
+        color: $printContent;
+    }
 }
 
 @media (min-width: 1024px) {
