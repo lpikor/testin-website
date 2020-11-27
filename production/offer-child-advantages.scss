@@ -30,6 +30,10 @@
     .branding-advantages &__title {
         color: $brandingContent;
     }
+
+    .print-advantages &__title {
+        color: $printContent;
+    }
 }
 
 @media (min-width: 1024px) {

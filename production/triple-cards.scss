@@ -61,6 +61,10 @@
     .branding-advantages &__title {
         color: $brandingContent;
     }
+
+    .print-advantages &__title {
+        color: $printContent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -110,6 +114,10 @@
 
         .branding-advantages &__item:hover {
             background: linear-gradient(0, $brandingGradientStart, $brandingGradientEnd);
+        }
+
+        .print-advantages &__item:hover {
+            background: linear-gradient(0, $printGradientStart, $printGradientEnd);
         }
     }
 }
