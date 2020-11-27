@@ -18,4 +18,6 @@
 
     get_template_part('template-parts/branding-your-best');
 
+    get_template_part('template-parts/branding-form-2');
+
 get_footer(); ?>
