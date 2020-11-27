@@ -58,7 +58,12 @@
         }
 
         &__img {
-            max-width: 500px;
+            max-width: 100%;
+            padding: 2rem;
+        }
+
+        &.shops-your-best::before {
+            background: url(assets/images/divider-background-green.webp);
         }
     }
 }
