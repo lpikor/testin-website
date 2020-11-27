@@ -33,6 +33,14 @@
     &.branding-form .btn {
         color: $brandingContent;
     }
+
+    &.print-form {
+        background: linear-gradient(0, $printGradientStart, $printGradientEnd);
+    }
+
+    &.print-form .btn {
+        color: $printContent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -72,6 +80,10 @@
 
         &.branding-form::after {
             background: url('assets/images/divider-background-purple.webp');
+        }
+
+        &.print-form::after {
+            background: url('assets/images/divider-background-red.webp');
         }
     }
 
