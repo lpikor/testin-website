@@ -18,4 +18,6 @@
 
     get_template_part('template-parts/marketing-your-best');
 
+    get_template_part('template-parts/marketing-form-2');
+
 get_footer(); ?>
