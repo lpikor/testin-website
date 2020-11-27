@@ -56,5 +56,10 @@
         &__img-container {
             display: block;
         }
+
+        &__img {
+            max-width: 100%;
+            padding: 2rem;
+        }
     }
 }

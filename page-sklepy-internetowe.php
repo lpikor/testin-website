@@ -8,7 +8,7 @@
 
     get_template_part('template-parts/shops-our-projects');
 
-    get_template_part('template-parts/websites-encouragement');
+    get_template_part('template-parts/shops-encouragement');
 
     get_template_part('template-parts/websites-form');
 
