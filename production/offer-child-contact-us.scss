@@ -66,6 +66,17 @@
             background: linear-gradient(0, $brandingGradientStart, $brandingGradientEnd);
         }
     }
+
+    &.print-contact-us {
+        background: linear-gradient($printGradientStart, $printGradientEnd);
+    }
+
+    .print-contact-us &__btn {
+        color: $printContent;
+        &::before {
+            background: linear-gradient(0, $printGradientStart, $printGradientEnd);
+        }
+    }
 }
 
 @media (min-width: 1024px) {
@@ -115,6 +126,10 @@
 
         &.branding-contact-us::before {
             background: url('assets/images/divider-background-purple.webp');
+        }
+
+        &.print-contact-us::before {
+            background: url('assets/images/divider-background-red.webp');
         }
     }
 }
