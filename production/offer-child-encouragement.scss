@@ -36,7 +36,7 @@
             width: 100%;
             max-width: 1600px;
             border-top-left-radius: 50px;
-            background: url(assets/images/divider-background.webp);
+            background: url('assets/images/divider-background.webp');
         }
 
         &__container {
@@ -60,6 +60,10 @@
         &__img {
             max-width: 100%;
             padding: 2rem;
+        }
+        
+        &.shops-encouragement::before {
+            background: url('assets/images/divider-background-green.webp');
         }
     }
 }
