@@ -42,6 +42,10 @@
     .shops-how-steps &__count {
         color: $shopContent;
     }
+
+    .marketing-how-steps &__count {
+        color: $marketingContent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -106,6 +110,10 @@
 
         .shops-how-steps &__item:hover &__count-container {
             background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
+        }
+
+        .marketing-how-steps &__item:hover &__count-container {
+            background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
         }
     }
 }

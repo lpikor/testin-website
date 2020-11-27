@@ -10,4 +10,6 @@
 
     get_template_part('template-parts/marketing-form');
 
+    get_template_part('template-parts/marketing-how-steps');
+
 get_footer(); ?>

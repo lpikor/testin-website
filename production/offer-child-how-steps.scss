@@ -22,6 +22,10 @@
     .shops-how-steps &__title {
         color: $shopContent;
     }
+
+    .marketing-how-steps &__title {
+        color: $marketingContent;
+    }
 }
 
 @media (min-width: 1024px) {
