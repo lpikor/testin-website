@@ -4,7 +4,7 @@
 
     get_template_part('template-parts/shops-contact-us');
 
-    get_template_part('template-parts/websites-advantages');
+    get_template_part('template-parts/shops-advantages');
 
     get_template_part('template-parts/websites-opportunities');
 
