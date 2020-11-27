@@ -18,4 +18,6 @@
 
     get_template_part('template-parts/print-your-best');
 
+    get_template_part('template-parts/print-form-2');
+
 get_footer(); ?>
