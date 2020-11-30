@@ -175,6 +175,7 @@ ul {
 
         &__desktop {
             display: block;
+            position: relative;
             max-width: 1000px;
             margin: 0 auto;
         }
@@ -237,10 +238,16 @@ ul {
             right: -350px;
         }
 
-        .artur-kucharzyk-content__orange-bg {
+        &.artur-kucharzyk-content {
             position: relative;
-            top: 150px;
-            width: 100%;
+            height: 4000px;
+        }
+
+        .artur-kucharzyk-content__orange-bg {
+            position: absolute;
+            top: 1770px;
+            right: 0;
+            width: calc(50vw + 485px);
             height: 1200px;
             border-bottom-left-radius: 230px;
             background: $arturKucharzykContent;
@@ -248,51 +255,86 @@ ul {
         }
 
         .artur-kucharzyk-content &__desktop {
-            position: relative;
             top: 150px;
         }
 
         .artur-kucharzyk-content &__tablet {
-            top: 1100px;
-            right: -200px;
-            left: initial;
+            top: -1000px;
+            left: 350px;
             width: 700px;
         }
 
         .artur-kucharzyk-content &__mobile {
-            top: 1600px;
-            left: -200px;
-            right: initial;
+            top: 300px;
+            right: 500px;
         }
 
         .artur-kucharzyk-content &__screen {
-            top: 2300px;
-            right: 0;
-            left: 0;
+            top: -900px;
+            right: -50px;
             width: 1000px;
         }
 
         .artur-kucharzyk-content &__desktop-2 {
             position: relative;
-            top: 950px;
-            padding-bottom: 70rem;
+            top: -700px;
+            left: 0;
+            width: calc(50vw + 600px);
+            max-width: 1320px;
+            margin-left: 0;
             border-top-right-radius: 250px;
         }
 
         .artur-kucharzyk-content &__note:nth-child(1) {
-            right: 0;
+            top: -4450px;
+            right: -164px;
+        }
+
+        .artur-kucharzyk-content &__note:nth-child(2) {
+            top: -3700px;
         }
 
         .artur-kucharzyk-content &__note:nth-child(3) {
-            top: 2200px;
+            top: -3025px;
         }
 
         .artur-kucharzyk-content &__note:nth-child(4) {
-            top: 3150px;
+            top: -2250px;
         }
 
         .artur-kucharzyk-content &__note:nth-child(5) {
-            top: 3900px;
+            top: -1550px;
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .our-projects-child-content {
+
+        &.artur-kucharzyk-content {
+            position: relative;
+            height: 4200px;
+        }
+
+        .artur-kucharzyk-content &__note:nth-child(1) {
+            top: -4575px;
+            right: -164px;
+        }
+
+        .artur-kucharzyk-content &__note:nth-child(2) {
+            top: -3850px;
+        }
+
+        .artur-kucharzyk-content &__note:nth-child(3) {
+            top: -3125px;
+        }
+
+        .artur-kucharzyk-content &__note:nth-child(4) {
+            top: -2350px;
+        }
+
+        .artur-kucharzyk-content &__desktop-2 {
+            max-width: 1560px;
         }
     }
 }

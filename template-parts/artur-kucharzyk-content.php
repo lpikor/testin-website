@@ -3,7 +3,6 @@
     <div class="artur-kucharzyk-content__orange-bg"></div>
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/arturkucharzyk-mobile.webp" alt="" class="our-projects-child-content__item our-projects-child-content__mobile">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/arturkucharzyk-tablet.webp" alt="" class="our-projects-child-content__item our-projects-child-content__tablet">
-    <img src="<?php bloginfo('template_directory'); ?>/assets/images/arturkucharzyk-laptop.webp" alt="" class="our-projects-child-content__item our-projects-child-content__laptop">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/arturkucharzyk-screen.webp" alt="" class="our-projects-child-content__item our-projects-child-content__screen">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/arturkucharzyk-desktop-2.webp" alt="" class="our-projects-child-content__item our-projects-child-content__desktop-2">
 
