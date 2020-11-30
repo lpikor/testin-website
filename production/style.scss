@@ -36,7 +36,7 @@ $lpBtnGradientEnd: #bd3900;
 $lpGridGradientStart: #129fca;
 $lpGridGradientEnd: #186096;
 
-$polskaKulturalnaContent: #bcafad;
+$polskaKulturalnaContent: #ff6624;
 $arturKucharzykContent: #ffc939;
 $allplansContent: #89ab97;
 $pogotowieWarzywneContent: #ff6624;
@@ -118,4 +118,115 @@ p {
 
 ul {
     list-style-type: none;
+}
+
+.our-projects-child-content {
+    text-align: center;
+    padding: 2rem 0;
+
+    &__item {
+        max-width: 100%;
+    }
+
+    &__note {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        max-width: 650px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    &__note-count {
+        font-size: 3rem;
+        color: $polskaKulturalnaContent;
+    }
+
+    &__note-text {
+        padding-left: 2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .our-projects-child-content {
+        position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 8rem 0;
+
+        &__note {
+            padding: 3rem;
+            background: $whiteBackground;
+            -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+            -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+        }
+
+        &__note-count {
+            font-size: 4rem;
+        }
+
+        &__desktop {
+            display: block;
+            margin: 0 auto;
+        }
+
+        &__mobile {
+            position: absolute;
+            top: 600px;
+            right: -200px;
+            width: 400px;
+        }
+
+        &__laptop {
+            position: absolute;
+            top: 1250px;
+            left: -250px;
+            width: 750px;
+        }
+
+        &__screen {
+            position: absolute;
+            top: 2200px;
+            right: -200px;
+            width: 550px;
+        }
+
+        &__tablet {
+            position: absolute;
+            top: 2850px;
+            left: -200px;
+            width: 450px;
+        }
+
+        &__note:nth-child(1) {
+            position: absolute;
+            top: 40px;
+            right: -150px;
+        }
+
+        &__note:nth-child(2) {
+            position: absolute;
+            top: 1000px;
+            left: -200px;
+        }
+
+        &__note:nth-child(3) {
+            position: absolute;
+            top: 2000px;
+            right: -200px;
+        }
+
+        &__note:nth-child(4) {
+            position: absolute;
+            top: 3250px;
+            left: -200px;
+        }
+
+        &__note:nth-child(5) {
+            position: absolute;
+            top: 3950px;
+            right: -200px;
+        }
+    }
 }
