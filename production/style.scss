@@ -165,6 +165,10 @@ ul {
     .zdrojowisko-content &__note-count {
         color: $zdrojowiskoContent;
     }
+
+    .elproma-content &__note-count {
+        color: $elpromaContent;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -525,6 +529,75 @@ ul {
         .zdrojowisko-content &__note:nth-child(5) {
             top: -2481px;
         }
+
+
+        &.elproma-content {
+            position: relative;
+            height: 3921px;
+        }
+
+        .elproma-content__red-bg {
+            position: absolute;
+            top: 1404px;
+            right: 0;
+            width: calc(50vw + 489px);
+            height: 1032px;
+            border-bottom-left-radius: 230px;
+            background: $elpromaContent;
+            z-index: -1;
+        }
+
+        .elproma-content &__desktop {
+            top: 150px;
+        }
+
+        .elproma-content &__mobile {
+            top: -328px;
+            right: 500px;
+        }
+
+        .elproma-content &__tablet {
+            top: -1362px;
+            left: 353px;
+            width: 700px;
+        }
+
+        .elproma-content &__screen {
+            top: -1425px;
+            right: -50px;
+            width: 1000px;
+        }
+
+        .elproma-content &__desktop-2 {
+            position: relative;
+            top: -1201px;
+            left: 0;
+            width: calc(50vw + 600px);
+            max-width: 1320px;
+            margin-left: 0;
+            border-top-right-radius: 250px;
+        }
+
+        .elproma-content &__note:nth-child(1) {
+            top: -4851px;
+            right: -174px;
+        }
+
+        .elproma-content &__note:nth-child(2) {
+            top: -4081px;
+        }
+
+        .elproma-content &__note:nth-child(3) {
+            top: -3516px;
+        }
+
+        .elproma-content &__note:nth-child(4) {
+            top: -2765px;
+        }
+
+        .elproma-content &__note:nth-child(5) {
+            top: -2028px;
+        }
     }
 }
 
@@ -631,6 +704,32 @@ ul {
         }
 
         .zdrojowisko-content &__desktop-2 {
+            max-width: 1560px;
+        }
+
+
+        &.elproma-content {
+            position: relative;
+            height: 4074px;
+        }
+
+        .elproma-content &__note:nth-child(1) {
+            top: -4981px;
+        }
+
+        .elproma-content &__note:nth-child(2) {
+            top: -4220px;
+        }
+
+        .elproma-content &__note:nth-child(3) {
+            top: -3646px;
+        }
+
+        .elproma-content &__note:nth-child(4) {
+            top: -2907px;
+        }
+
+        .elproma-content &__desktop-2 {
             max-width: 1560px;
         }
     }
