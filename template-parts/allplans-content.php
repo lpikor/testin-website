@@ -1,8 +1,8 @@
 <div class="our-projects-child-content allplans-content">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/allplans-desktop.webp" alt="" class="our-projects-child-content__item our-projects-child-content__desktop">
+    <div class="allplans-content__olive-bg"></div>
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/allplans-mobile.webp" alt="" class="our-projects-child-content__item our-projects-child-content__mobile">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/allplans-tablet.webp" alt="" class="our-projects-child-content__item our-projects-child-content__tablet">
-    <img src="<?php bloginfo('template_directory'); ?>/assets/images/allplans-laptop.webp" alt="" class="our-projects-child-content__item our-projects-child-content__laptop">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/allplans-screen.webp" alt="" class="our-projects-child-content__item our-projects-child-content__screen">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/allplans-desktop-2.webp" alt="" class="our-projects-child-content__item our-projects-child-content__desktop-2">
 

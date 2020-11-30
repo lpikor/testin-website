@@ -153,6 +153,10 @@ ul {
     .artur-kucharzyk-content &__note-count {
         color: $arturKucharzykContent;
     }
+
+    .allplans-content &__note-count {
+        color: $allplansContent;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -160,6 +164,7 @@ ul {
         margin: 0 auto;
         padding: 8rem 0;
         height: 4500px;
+        overflow-y: hidden;
 
         &__note {
             padding: 3rem;
@@ -305,6 +310,74 @@ ul {
         .artur-kucharzyk-content &__note:nth-child(5) {
             top: -1550px;
         }
+
+        &.allplans-content {
+            position: relative;
+            height: 4000px;
+        }
+
+        .allplans-content__olive-bg {
+            position: absolute;
+            top: 1300px;
+            right: 0;
+            width: calc(50vw + 485px);
+            height: 1100px;
+            border-bottom-left-radius: 230px;
+            background: $allplansContent;
+            z-index: -1;
+        }
+
+        .allplans-content &__desktop {
+            top: 0;
+        }
+
+        .allplans-content &__mobile {
+            top: -300px;
+            right: 500px;
+        }
+
+        .allplans-content &__tablet {
+            top: -1450px;
+            left: 350px;
+            width: 700px;
+        }
+
+        .allplans-content &__screen {
+            top: -1450px;
+            right: -50px;
+            width: 1000px;
+        }
+
+        .allplans-content &__desktop-2 {
+            position: relative;
+            top: -1300px;
+            left: 0;
+            width: calc(50vw + 600px);
+            max-width: 1320px;
+            margin-left: 0;
+            border-top-right-radius: 250px;
+        }
+
+        .allplans-content &__note:nth-child(1) {
+            top: -5100px;
+            right: -164px;
+        }
+
+        .allplans-content &__note:nth-child(2) {
+            top: -4325px;
+        }
+
+        .allplans-content &__note:nth-child(3) {
+            top: -3725px;
+        }
+
+        .allplans-content &__note:nth-child(4) {
+            top: -3050px;
+        }
+
+        .allplans-content &__note:nth-child(5) {
+            top: -2250px;
+        }
     }
 }
 
@@ -318,7 +391,6 @@ ul {
 
         .artur-kucharzyk-content &__note:nth-child(1) {
             top: -4575px;
-            right: -164px;
         }
 
         .artur-kucharzyk-content &__note:nth-child(2) {
@@ -334,6 +406,31 @@ ul {
         }
 
         .artur-kucharzyk-content &__desktop-2 {
+            max-width: 1560px;
+        }
+
+        &.allplans-content {
+            position: relative;
+            height: 4200px;
+        }
+
+        .allplans-content &__note:nth-child(1) {
+            top: -5275px;
+        }
+
+        .allplans-content &__note:nth-child(2) {
+            top: -4500px;
+        }
+
+        .allplans-content &__note:nth-child(3) {
+            top: -3875px;
+        }
+
+        .allplans-content &__note:nth-child(4) {
+            top: -3225px;
+        }
+
+        .allplans-content &__desktop-2 {
             max-width: 1560px;
         }
     }
