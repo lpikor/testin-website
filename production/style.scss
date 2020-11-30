@@ -157,10 +157,9 @@ ul {
 
 @media (min-width: 1440px) {
     .our-projects-child-content {
-        position: relative;
-        max-width: 1000px;
         margin: 0 auto;
         padding: 8rem 0;
+        height: 4500px;
 
         &__note {
             padding: 3rem;
@@ -176,65 +175,66 @@ ul {
 
         &__desktop {
             display: block;
+            max-width: 1000px;
             margin: 0 auto;
         }
 
         &__mobile {
-            position: absolute;
-            top: 600px;
-            right: -200px;
+            position: relative;
+            top: -3800px;
+            right: -500px;
             width: 400px;
         }
 
         &__laptop {
-            position: absolute;
-            top: 1250px;
-            left: -250px;
-            width: 750px;
+            position: relative;
+            top: -4200px;
+            left: -400px;
+            width: 700px;
         }
 
         &__screen {
-            position: absolute;
-            top: 2200px;
-            right: -200px;
+            position: relative;
+            top: -3800px;
+            right: -400px;
             width: 550px;
         }
 
         &__tablet {
-            position: absolute;
-            top: 2850px;
-            left: -200px;
+            position: relative;
+            top: -2250px;
+            left: -500px;
             width: 450px;
         }
 
         &__note:nth-child(1) {
-            position: absolute;
-            top: 40px;
-            right: -150px;
+            position: relative;
+            top: -6450px;
+            right: -350px;
         }
 
         &__note:nth-child(2) {
-            position: absolute;
-            top: 1000px;
-            left: -200px;
+            position: relative;
+            top: -5600px;
+            left: -350px;
         }
 
         &__note:nth-child(3) {
-            position: absolute;
-            top: 2000px;
-            right: -200px;
+            position: relative;
+            top: -4850px;
+            right: -350px;
         }
 
         &__note:nth-child(4) {
-            position: absolute;
-            top: 3250px;
-            left: -200px;
+            position: relative;
+            top: -3800px;
+            left: -350px;
         }
 
         &__note:nth-child(5) {
-            position: absolute;
-            top: 3950px;
-            right: -200px;
+            position: relative;
+            top: -3250px;
+            right: -350px;
         }
 
         .artur-kucharzyk-content__orange-bg {
