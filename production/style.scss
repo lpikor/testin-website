@@ -169,6 +169,10 @@ ul {
     .elproma-content &__note-count {
         color: $elpromaContent;
     }
+
+    .boram-content &__note-count {
+        color: $boramContent;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -598,6 +602,75 @@ ul {
         .elproma-content &__note:nth-child(5) {
             top: -2028px;
         }
+
+
+        &.boram-content {
+            position: relative;
+            height: 4007px;
+        }
+
+        .boram-content__red-bg {
+            position: absolute;
+            top: 1399px;
+            right: 0;
+            width: calc(50vw + 486px);
+            height: 895px;
+            border-bottom-left-radius: 230px;
+            background: $boramContent;
+            z-index: 0;
+        }
+
+        .boram-content &__desktop {
+            top: 150px;
+        }
+
+        .boram-content &__mobile {
+            top: -1693px;
+            right: 500px;
+        }
+
+        .boram-content &__tablet {
+            top: -2843px;
+            left: 353px;
+            width: 600px;
+        }
+
+        .boram-content &__screen {
+            top: -2795px;
+            right: -50px;
+            width: 1000px;
+        }
+
+        .boram-content &__desktop-2 {
+            position: relative;
+            top: -2239px;
+            left: 0;
+            width: calc(50vw + 600px);
+            max-width: 1320px;
+            margin-left: 0;
+            border-top-right-radius: 250px;
+        }
+
+        .boram-content &__note:nth-child(1) {
+            top: -6009px;
+            right: -162px;
+        }
+
+        .boram-content &__note:nth-child(2) {
+            top: -5216px;
+        }
+
+        .boram-content &__note:nth-child(3) {
+            top: -4781px;
+        }
+
+        .boram-content &__note:nth-child(4) {
+            top: -4000px;
+        }
+
+        .boram-content &__note:nth-child(5) {
+            top: -3111px;
+        }
     }
 }
 
@@ -730,6 +803,32 @@ ul {
         }
 
         .elproma-content &__desktop-2 {
+            max-width: 1560px;
+        }
+
+
+        &.boram-content {
+            position: relative;
+            height: 4112px;
+        }
+
+        .boram-content &__note:nth-child(1) {
+            top: -6112px;
+        }
+
+        .boram-content &__note:nth-child(2) {
+            top: -5320px;
+        }
+
+        .boram-content &__note:nth-child(3) {
+            top: -4898px;
+        }
+
+        .boram-content &__note:nth-child(4) {
+            top: -4107px;
+        }
+
+        .boram-content &__desktop-2 {
             max-width: 1560px;
         }
     }
