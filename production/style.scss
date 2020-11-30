@@ -157,6 +157,10 @@ ul {
     .allplans-content &__note-count {
         color: $allplansContent;
     }
+
+    .pogotowie-warzywne-content &__note-count {
+        color: $pogotowieWarzywneContent;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -311,6 +315,7 @@ ul {
             top: -1550px;
         }
 
+
         &.allplans-content {
             position: relative;
             height: 4000px;
@@ -378,6 +383,75 @@ ul {
         .allplans-content &__note:nth-child(5) {
             top: -2250px;
         }
+
+
+        &.pogotowie-warzywne-content {
+            position: relative;
+            height: 4100px;
+        }
+
+        .pogotowie-warzywne-content__orange-bg {
+            position: absolute;
+            top: 1591px;
+            right: 0;
+            width: calc(50vw + 490px);
+            height: 1100px;
+            border-bottom-left-radius: 230px;
+            background: $pogotowieWarzywneContent;
+            z-index: -1;
+        }
+
+        .pogotowie-warzywne-content &__desktop {
+            top: 0;
+        }
+
+        .pogotowie-warzywne-content &__mobile {
+            top: 100px;
+            right: 500px;
+        }
+
+        .pogotowie-warzywne-content &__tablet {
+            top: -1168px;
+            left: 500px;
+            width: 700px;
+        }
+
+        .pogotowie-warzywne-content &__screen {
+            top: -1148px;
+            right: -50px;
+            width: 1000px;
+        }
+
+        .pogotowie-warzywne-content &__desktop-2 {
+            position: relative;
+            top: -900px;
+            left: 0;
+            width: calc(50vw + 600px);
+            max-width: 1320px;
+            margin-left: 0;
+            border-top-right-radius: 250px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(1) {
+            top: -4828px;
+            right: -128px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(2) {
+            top: -4159px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(3) {
+            top: -3260px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(4) {
+            top: -2465px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(5) {
+            top: -1826px;
+        }
     }
 }
 
@@ -409,6 +483,7 @@ ul {
             max-width: 1560px;
         }
 
+
         &.allplans-content {
             position: relative;
             height: 4200px;
@@ -419,7 +494,7 @@ ul {
         }
 
         .allplans-content &__note:nth-child(2) {
-            top: -4500px;
+            top: -4278px;
         }
 
         .allplans-content &__note:nth-child(3) {
@@ -431,6 +506,32 @@ ul {
         }
 
         .allplans-content &__desktop-2 {
+            max-width: 1560px;
+        }
+
+
+        &.pogotowie-warzywne-content {
+            position: relative;
+            height: 4200px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(1) {
+            top: -4946px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(2) {
+            top: -4500px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(3) {
+            top: -3361px;
+        }
+
+        .pogotowie-warzywne-content &__note:nth-child(4) {
+            top: -2574px;
+        }
+
+        .pogotowie-warzywne-content &__desktop-2 {
             max-width: 1560px;
         }
     }
