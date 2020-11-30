@@ -173,6 +173,10 @@ ul {
     .boram-content &__note-count {
         color: $boramContent;
     }
+
+    .magnum-content &__note-count {
+        color: $magnumContent;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -670,6 +674,75 @@ ul {
 
         .boram-content &__note:nth-child(5) {
             top: -3111px;
+        }
+
+
+        &.magnum-content {
+            position: relative;
+            height: 4772px;
+        }
+
+        .magnum-content__blue-bg {
+            position: absolute;
+            top: 1905px;
+            right: 0;
+            width: calc(50vw + 475px);
+            height: 1200px;
+            border-bottom-left-radius: 230px;
+            background: $magnumContent;
+            z-index: -1;
+        }
+
+        .magnum-content &__desktop {
+            top: 150px;
+        }
+
+        .magnum-content &__mobile {
+            top: -3288px;
+            right: 500px;
+        }
+
+        .magnum-content &__tablet {
+            top: -2940px;
+            left: 353px;
+            width: 600px;
+        }
+
+        .magnum-content &__screen {
+            top: -2517px;
+            right: 352px;
+            width: 700px;
+        }
+
+        .magnum-content &__desktop-2 {
+            position: relative;
+            top: -2239px;
+            left: 0;
+            width: calc(50vw + 600px);
+            max-width: 1320px;
+            margin-left: 0;
+            border-top-right-radius: 250px;
+        }
+
+        .magnum-content &__note:nth-child(1) {
+            top: -6139px;
+            right: -155px;
+        }
+
+        .magnum-content &__note:nth-child(2) {
+            top: -5651px;
+        }
+
+        .magnum-content &__note:nth-child(3) {
+            top: -4081px;
+        }
+
+        .magnum-content &__note:nth-child(4) {
+            top: -3121px;
+        }
+
+        .magnum-content &__note:nth-child(5) {
+            top: -2756px;
         }
     }
 }
