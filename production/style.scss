@@ -181,6 +181,10 @@ ul {
     .vidok-content &__note-count {
         color: $vidokContent;
     }
+
+    .rodo-maruta-content &__note-count {
+        color: $rodoMarutaContent;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -813,6 +817,77 @@ ul {
 
         .vidok-content &__note:nth-child(5) {
             top: -5156px;
+        }
+
+
+        &.rodo-maruta-content {
+            position: relative;
+            height: 4431px;
+        }
+
+        .rodo-maruta-content__pink-bg {
+            position: absolute;
+            top: 1498px;
+            right: 0;
+            width: calc(50vw + 475px);
+            height: 1200px;
+            border-bottom-left-radius: 230px;
+            background: $rodoMarutaContent;
+            z-index: -1;
+        }
+
+        .rodo-maruta-content &__desktop {
+            top: 150px;
+        }
+
+        .rodo-maruta-content &__mobile {
+            top: -2094px;
+            right: -500px;
+        }
+
+        .rodo-maruta-content &__tablet {
+            top: -2405px;
+            left: -401px;
+            width: 600px;
+        }
+
+        .rodo-maruta-content &__screen {
+            top: -2135px;
+            right: -445px;
+            width: 500px;
+        }
+
+        .rodo-maruta-content &__desktop-2 {
+            position: relative;
+            top: -1643px;
+            left: -120px;
+            width: 1000px;
+        }
+
+        .rodo-maruta-content &__laptop {
+            top: -1900px;
+            left: 334px;
+        }
+
+        .rodo-maruta-content &__note:nth-child(1) {
+            top: -6272px;
+            right: -159px;
+        }
+
+        .rodo-maruta-content &__note:nth-child(2) {
+            top: -5837px;
+        }
+
+        .rodo-maruta-content &__note:nth-child(3) {
+            top: -4303px;
+        }
+
+        .rodo-maruta-content &__note:nth-child(4) {
+            top: -3717px;
+        }
+
+        .rodo-maruta-content &__note:nth-child(5) {
+            top: -3227px;
         }
     }
 }
