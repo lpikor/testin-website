@@ -161,6 +161,10 @@ ul {
     .pogotowie-warzywne-content &__note-count {
         color: $pogotowieWarzywneContent;
     }
+
+    .zdrojowisko-content &__note-count {
+        color: $zdrojowiskoContent;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -412,7 +416,7 @@ ul {
 
         .pogotowie-warzywne-content &__tablet {
             top: -1168px;
-            left: 500px;
+            left: 353px;
             width: 700px;
         }
 
@@ -451,6 +455,75 @@ ul {
 
         .pogotowie-warzywne-content &__note:nth-child(5) {
             top: -1826px;
+        }
+
+
+        &.zdrojowisko-content {
+            position: relative;
+            height: 4100px;
+        }
+
+        .zdrojowisko-content__blue-bg {
+            position: absolute;
+            top: 1401px;
+            right: 0;
+            width: calc(50vw + 493px);
+            height: 1186px;
+            border-bottom-left-radius: 230px;
+            background: $zdrojowiskoContent;
+            z-index: 0;
+        }
+
+        .zdrojowisko-content &__desktop {
+            top: 150px;
+        }
+
+        .zdrojowisko-content &__mobile {
+            top: -647px;
+            right: 500px;
+        }
+
+        .zdrojowisko-content &__tablet {
+            top: -1970px;
+            left: 353px;
+            width: 700px;
+        }
+
+        .zdrojowisko-content &__screen {
+            top: -1894px;
+            right: -50px;
+            width: 1000px;
+        }
+
+        .zdrojowisko-content &__desktop-2 {
+            position: relative;
+            top: -1651px;
+            left: 0;
+            width: calc(50vw + 600px);
+            max-width: 1320px;
+            margin-left: 0;
+            border-top-right-radius: 250px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(1) {
+            top: -5467px;
+            right: -174px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(2) {
+            top: -4616px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(3) {
+            top: -4042px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(4) {
+            top: -3233px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(5) {
+            top: -2481px;
         }
     }
 }
@@ -532,6 +605,32 @@ ul {
         }
 
         .pogotowie-warzywne-content &__desktop-2 {
+            max-width: 1560px;
+        }
+
+
+        &.zdrojowisko-content {
+            position: relative;
+            height: 4200px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(1) {
+            top: -5600px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(2) {
+            top: -4773px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(3) {
+            top: -4164px;
+        }
+
+        .zdrojowisko-content &__note:nth-child(4) {
+            top: -3353px;
+        }
+
+        .zdrojowisko-content &__desktop-2 {
             max-width: 1560px;
         }
     }
