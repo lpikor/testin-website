@@ -20,6 +20,14 @@
     &__img-container {
         display: none;
     }
+
+    &__btn {
+        margin: 2rem auto 0;
+    }
+
+    &.about-us-visibility {
+        padding-top: 0;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -62,6 +70,10 @@
             padding: 2rem;
         }
 
+        &__btn {
+            margin-right: 0;
+        }
+
         &.shops-your-best::before {
             background: url(assets/images/divider-background-green.webp);
         }
@@ -76,6 +88,10 @@
 
         &.print-your-best::before {
             background: url(assets/images/divider-background-red.webp);
+        }
+
+        &.about-us-visibility::before {
+            display: none;
         }
     }
 }

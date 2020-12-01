@@ -14,4 +14,6 @@
 
     get_template_part('template-parts/about-us-trusted-by');
 
+    get_template_part('template-parts/about-us-visibility');
+
 get_footer(); ?>
