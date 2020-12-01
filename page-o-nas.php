@@ -8,4 +8,6 @@
 
     get_template_part('template-parts/about-us-statistics');
 
+    get_template_part('template-parts/about-us-see-our-projects');
+
 get_footer(); ?>
