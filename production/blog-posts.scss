@@ -1,0 +1,47 @@
+.blog-posts {
+    margin: 2rem 0;
+
+    &__item {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__title {
+        margin-top: 1rem;
+        color: $primaryContent;
+        font-weight: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-top: 1rem;
+    }
+
+    &__read-more {
+        display: block;
+        margin-top: 1rem;
+        color: $primaryContent;
+    }
+}
+
+@media (min-width: 1024px) {
+    .blog-posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem 2rem;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 2rem 8rem;
+
+        &__item {
+            max-width: none;
+            padding: 0;
+        }
+    }
+}

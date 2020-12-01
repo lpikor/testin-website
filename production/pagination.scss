@@ -1,0 +1,16 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: .25rem;
+}
+
+.page-numbers {
+    padding: 0 .5rem;
+}
+
+.page-numbers.current {
+    color: $primaryContent;
+    font-weight: bolder;
+}
