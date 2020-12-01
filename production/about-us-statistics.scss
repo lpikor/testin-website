@@ -1,0 +1,18 @@
+.about-us-statistics {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: $whiteBackground;
+
+    &__title {
+        color: $primaryContent;
+        font-weight: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-us-statistics {
+        padding: 8rem 1rem;
+    }
+}

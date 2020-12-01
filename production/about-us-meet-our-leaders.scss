@@ -1,0 +1,20 @@
+.about-us-meet-our-leaders {
+    text-align: center;
+    padding: 2rem 1rem;
+
+    &__title {
+        color: $primaryContent;
+        font-weight: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-us-meet-our-leaders {
+    
+        &__title {
+            font-size: 3rem;
+        }
+    }
+}
