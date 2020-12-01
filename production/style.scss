@@ -127,3 +127,41 @@ p {
 ul {
     list-style-type: none;
 }
+
+.blog-categories {
+    text-align: center;
+    padding: 4rem 1rem;
+
+    &__title {
+        font-weight: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    list-style-type: none;
+}
+
+.cat-item-all {
+    padding: .5rem 1rem;
+    margin: .5rem 1rem;
+    color: $primaryContent;
+}
+
+.cat-item {
+    padding: .5rem 1rem;
+    margin: .5rem 1rem;
+    color: $primaryContent;
+}
+
+.current-cat {
+    font-weight: bolder;
+}
