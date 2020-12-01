@@ -29,8 +29,13 @@
             margin-left: 0;
             padding: 0 2rem;
         }
+
         &__title {
             font-weight: normal;
+        }
+
+        &.about-us-service-cards {
+            padding: 4rem 1rem 8rem;
         }
     }
 }

@@ -4,4 +4,6 @@
 
     get_template_part('template-parts/about-us-mission');
 
+    get_template_part('template-parts/about-us-service-cards');
+
 get_footer(); ?>
