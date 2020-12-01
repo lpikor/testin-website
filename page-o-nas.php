@@ -6,4 +6,6 @@
 
     get_template_part('template-parts/about-us-service-cards');
 
+    get_template_part('template-parts/about-us-statistics');
+
 get_footer(); ?>

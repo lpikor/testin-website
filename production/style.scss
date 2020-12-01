@@ -121,3 +121,51 @@ p {
 ul {
     list-style-type: none;
 }
+
+.about-us-statistics {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: $whiteBackground;
+
+    &__title {
+        color: $primaryContent;
+        font-weight: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-us-statistics {
+        padding: 8rem 1rem;
+    }
+}
+
+.about-us-numbers {
+    margin-top: 4rem;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        margin: 4rem auto 0;
+    }
+
+    &__item-value {
+        font-size: 3rem;
+        letter-spacing: 8px;
+    }
+
+    &__item-description {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-us-numbers {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}
