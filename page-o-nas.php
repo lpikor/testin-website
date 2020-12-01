@@ -12,4 +12,6 @@
 
     get_template_part('template-parts/about-us-meet-our-leaders');
 
+    get_template_part('template-parts/about-us-trusted-by');
+
 get_footer(); ?>
