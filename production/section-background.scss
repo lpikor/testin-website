@@ -9,6 +9,7 @@
 
     &__title {
         color: $primaryContent;
+        font-weight: normal;
         letter-spacing: 4px;
         text-transform: uppercase;
     }
@@ -19,6 +20,11 @@
 
     .shops-section-background &__title {
         color: $shopContent;
+    }
+
+    .section-background-about-us &__paragraph {
+        max-width: 600px;
+        margin: 2rem auto 0;
     }
 }
 
@@ -51,7 +57,7 @@
         &__title {
             position: relative;
             width: 65%;
-            max-width: 850px;
+            max-width: 600px;
             margin-right: 0;
             margin-left: auto;
             font-size: 3rem;
@@ -63,8 +69,46 @@
             margin-right: 0;
             margin-left: auto;
         }
+
+        .projects-section-background {
+            margin: 8rem 0;
+        }
+
+        .projects-section-background &__title {
+            max-width: 850px;
+        }
+
+        &.section-background-about-us::before {
+            height: 110%;
+        }
+
+        .section-background-about-us &__text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            max-width: 1300px;
+            margin: 1rem auto 0;
+        }
+
+        .section-background-about-us &__paragraph {
+            margin: initial;
+            margin-top: 2rem;
+        }
     }
-    .projects-section-background {
-        margin: 8rem 0;
+}
+
+@media (min-width: 1440px) {
+    .section-background {
+
+        .section-background-about-us &__text {
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-end;
+        }
+
+        .section-background-about-us &__paragraph {
+            max-width: 450px;
+            padding: 1rem;
+        }
     }
 }
