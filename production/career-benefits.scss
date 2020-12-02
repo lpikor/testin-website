@@ -1,0 +1,44 @@
+.career-benefits {
+    text-align: center;
+    max-width: 1300px;
+    margin: 2rem auto;
+    padding: 1rem;
+
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__list {
+        text-align: left;
+        max-width: 600px;
+        margin: 4rem auto;
+    }
+
+    &__item {
+        margin: 1rem 0;
+        padding-left: 2rem;
+        background: url('assets/images/list-circle.webp') no-repeat 0 4px;
+    }
+
+    &__text {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__paragraph {
+        margin: 1rem 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .career-benefits {
+        &__list {
+            max-width: 1000px;
+        }
+        
+        &__text {
+            text-align: left;
+            max-width: 1000px;
+        }
+    }
+}
