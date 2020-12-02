@@ -1,0 +1,30 @@
+.internships-positions {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 4rem auto;
+    padding: 1rem;
+
+    &__item {
+        text-align: center;
+        width: 100%;
+        max-width: 300px;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+
+    &__title {
+        margin-top: 2rem;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-top: 2rem;
+    }
+
+    &__read-more {
+        display: block;
+        margin-top: 2rem;
+        color: $primaryContent;
+    }
+}

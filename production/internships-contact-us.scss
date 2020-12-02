@@ -1,0 +1,17 @@
+.internships-contact-us {
+    text-align: center;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+
+    & a {
+        color: $primaryContent;
+    }
+}
+
+@media (min-width: 1024px) {
+    .internships-contact-us {
+        max-width: 1000px;
+        margin: 4rem auto;
+    }
+}
