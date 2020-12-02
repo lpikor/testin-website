@@ -98,6 +98,14 @@
             margin: initial;
             margin-top: 2rem;
         }
+
+        &.single-post-see-more {
+            padding: 4rem 2rem 1rem;
+        }
+
+        &.single-post-see-more::before {
+            height: 100%;
+        }
     }
 }
 

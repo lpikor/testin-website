@@ -10,7 +10,7 @@
 
     &__title {
         font-weight: normal;
-        letter-spacing: 4px;
+        letter-spacing: 0;
         color: $primaryContent;
         text-transform: uppercase;
     }
@@ -32,6 +32,10 @@
             flex-basis: 50%;
             max-width: 400px;
             margin: 0;
+        }
+
+        &__title {
+            letter-spacing: 4px;
         }
     }
 }

@@ -10,6 +10,10 @@
     padding: 0 .5rem;
 }
 
+.page-numbers:hover {
+    font-weight: bolder;
+}
+
 .page-numbers.current {
     color: $primaryContent;
     font-weight: bolder;

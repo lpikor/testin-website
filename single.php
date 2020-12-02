@@ -4,4 +4,6 @@
 
     get_template_part('template-parts/single-post-content');
 
+    get_template_part('template-parts/single-post-see-more');
+
 get_footer(); ?>
