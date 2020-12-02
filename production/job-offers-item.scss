@@ -1,0 +1,45 @@
+.job-offers-item {
+    padding: 4rem 1rem;
+
+    &__heading {
+        text-align: center;
+        color: $primaryContent;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__position {
+        margin-top: 2rem;
+    }
+
+    &__list-section {
+        text-align: left;
+        max-width: 600px;
+        margin: 4rem auto;
+    }
+
+    &__list-item {
+        margin: 1rem 0;
+        padding-left: 2rem;
+        background: url('assets/images/list-circle.webp') no-repeat 0 4px;
+    }
+
+    &__list-heading {
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1024px) {
+    .job-offers-item {
+        max-width: 1300px;
+        margin: 0 auto;
+
+        &__heading {
+            text-align: left;
+        }
+
+        &__list-section {
+            max-width: 1300px;
+        }
+    }
+}

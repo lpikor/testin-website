@@ -125,6 +125,42 @@
         .career-section-background &__paragraph {
             margin-right: 0;
         }
+
+        &.internships-wings {
+            margin: 8rem 0;
+        }
+
+        &.internships-wings:hover::before {
+            background: linear-gradient($primaryGradientStart, $primaryGradientEnd);
+        }
+
+        .internships-wings:hover &__paragraph,
+        .internships-wings:hover &__title {
+            color: $lightContent;
+        }
+
+        .internships-wings &__paragraph {
+            text-align: right;
+            width: 70%;
+            max-width: none;
+        }
+
+        &.internships-wings-left::before {
+            left: 0;
+            border-top-left-radius: 0;
+            border-top-right-radius: 150px;
+        }
+
+        .internships-wings-left &__title {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .internships-wings-left &__paragraph {
+            text-align: left;
+            margin-left: 0;
+            margin-right: auto;
+        }
     }
 }
 
