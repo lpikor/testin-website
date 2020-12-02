@@ -22,7 +22,8 @@
         color: $shopContent;
     }
 
-    .section-background-about-us &__paragraph {
+    .section-background-about-us &__paragraph,
+    .career-section-background &__paragraph {
         max-width: 600px;
         margin: 2rem auto 0;
     }
@@ -105,6 +106,23 @@
 
         &.single-post-see-more::before {
             height: 100%;
+        }
+
+        &.career-section-background {
+            padding: 4rem 2rem;
+        }
+
+        &.career-section-background::before {
+            height: 100%;
+        }
+
+        .career-section-background &__text {
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .career-section-background &__paragraph {
+            margin-right: 0;
         }
     }
 }
