@@ -6,4 +6,6 @@
 
     get_template_part('template-parts/career-benefits');
 
+    get_template_part('template-parts/career-cards');
+
 get_footer(); ?>
