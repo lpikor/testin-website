@@ -43,7 +43,7 @@
     }
 
     &.contact-form {
-        margin: 8rem 0;
+        margin: 4rem 0;
     }
 }
 
@@ -88,6 +88,10 @@
 
         &.print-form::after {
             background: url('assets/images/divider-background-red.webp');
+        }
+
+        &.contact-form {
+            margin: 8rem 0;
         }
     }
 

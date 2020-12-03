@@ -46,6 +46,28 @@
         display: block;
         margin-top: 1rem;
     }
+
+    &__item-title {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__item-number,
+    &__item-mail {
+        display: block;
+        color: $primaryContent;
+        letter-spacing: 4px;
+    }
+
+    &__item-number {
+        margin-top: 2rem;
+        font-weight: bolder;
+    }
+
+    &__item-mail {
+        margin-top: 1rem;
+        text-transform: uppercase;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -58,6 +80,14 @@
             flex-basis: 0;
             flex-grow: 1;
             max-width: 230px;
+        }
+
+        &__item-title {
+            letter-spacing: 0;
+        }
+
+        .contact-questions &__item {
+            max-width: 300px;
         }
     }
 }
@@ -76,6 +106,10 @@
 
         &__item::before {
             width: 110%;
+        }
+
+        &__item-title {
+            letter-spacing: 2px;
         }
     }
 }

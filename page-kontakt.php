@@ -6,4 +6,6 @@
 
     get_template_part('template-parts/contact-items');
 
+    get_template_part('template-parts/contact-questions');
+
 get_footer(); ?>
