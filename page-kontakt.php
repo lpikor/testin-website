@@ -8,4 +8,6 @@
 
     get_template_part('template-parts/contact-questions');
 
+    get_template_part('template-parts/contact-location');
+
 get_footer(); ?>

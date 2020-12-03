@@ -1,0 +1,19 @@
+.contact-questions {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 1rem;
+
+    &__title {
+        color: $primaryContent;
+        font-weight: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-questions {
+        max-width: 1300px;
+        margin: 8rem auto;
+    }
+}
