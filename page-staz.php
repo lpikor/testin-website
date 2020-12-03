@@ -8,4 +8,6 @@
 
     get_template_part('template-parts/internship-join-us');
 
+    get_template_part('template-parts/internship-offer');
+
 get_footer(); ?>

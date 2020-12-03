@@ -1,0 +1,54 @@
+.internship-offer {
+    text-align: center;
+    padding: 1rem;
+
+    &__title {
+        color: $primaryContent;
+        font-weight: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    &__img {
+        display: none;
+    }
+
+    &__list {
+        text-align: left;
+        max-width: 600px;
+        margin: 4rem auto;
+    }
+
+    &__list-item {
+        margin: 1rem 0;
+        padding-left: 2rem;
+        background: url(assets/images/list-circle.webp) no-repeat 0 4px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .internship-offer {
+
+        &__title {
+            font-size: 2rem;
+        }
+
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        &__img {
+            display: block;
+            padding: 1rem;
+            width: 60%;
+        }
+
+        &__list {
+            max-width: none;
+        }
+    }
+}
