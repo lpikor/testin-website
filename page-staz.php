@@ -6,4 +6,6 @@
 
     get_template_part('template-parts/internship-item');
 
+    get_template_part('template-parts/internship-join-us');
+
 get_footer(); ?>

@@ -1,5 +1,14 @@
 .consent {
+    max-width: 600px;
+    margin: 0 auto;
+
     & a {
         color: $primaryContent;
+    }
+}
+
+@media (min-width: 1024px) {
+    .consent {
+        max-width: 1300px;
     }
 }

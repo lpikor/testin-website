@@ -18,6 +18,14 @@
         margin-top: 1rem;
     }
 
+    &__btn {
+        display: block;
+        margin: 2rem auto 0;
+        color: $primaryContent;
+        font-family: 'Annie Use Your Telescope', cursive;
+        text-transform: lowercase;
+    }
+
     .shops-section-background &__title {
         color: $shopContent;
     }
@@ -67,6 +75,17 @@
 
         &__description {
             max-width: 600px;
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        &__btn-container {
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        &__btn {
+            text-align: right;
             margin-right: 0;
             margin-left: auto;
         }
