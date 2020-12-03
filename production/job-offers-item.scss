@@ -12,20 +12,34 @@
         margin-top: 2rem;
     }
 
+    &__description {
+        max-width: 600px;
+        margin: 2rem auto 0;
+        color: $blackContent;
+        letter-spacing: 0;
+        text-transform: initial;
+    }
+
     &__list-section {
         text-align: left;
         max-width: 600px;
         margin: 4rem auto;
     }
 
+    &__list-heading {
+        text-transform: uppercase;
+    }
+
+    &__list-description {
+        margin-top: .5rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
     &__list-item {
         margin: 1rem 0;
         padding-left: 2rem;
         background: url('assets/images/list-circle.webp') no-repeat 0 4px;
-    }
-
-    &__list-heading {
-        text-transform: uppercase;
     }
 }
 
@@ -38,8 +52,19 @@
             text-align: left;
         }
 
+        &__description {
+            text-align: right;
+            max-width: 1000px;
+            margin-right: 0;
+            margin-left: auto;
+        }
+
         &__list-section {
             max-width: 1300px;
+        }
+
+        .internship-item &__heading {
+            text-align: right;
         }
     }
 }
