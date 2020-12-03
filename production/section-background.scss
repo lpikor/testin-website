@@ -134,6 +134,11 @@
             background: linear-gradient($primaryGradientStart, $primaryGradientEnd);
         }
 
+        .internships-wings &__title {
+            text-align: right;
+            font-size: 2rem;
+        }
+
         .internships-wings:hover &__paragraph,
         .internships-wings:hover &__title {
             color: $lightContent;
@@ -152,6 +157,7 @@
         }
 
         .internships-wings-left &__title {
+            text-align: left;
             margin-left: 0;
             margin-right: auto;
         }
@@ -176,6 +182,10 @@
         .section-background-about-us &__paragraph {
             max-width: 450px;
             padding: 1rem;
+        }
+
+        .internships-wings &__title {
+            max-width: none;
         }
     }
 }
