@@ -20,6 +20,11 @@
 }
 
 .sub-menu {
+    display: none;
+}
+
+.navigation .sub-menu {
+    display: block;
     margin-top: .5rem;
     font-size: .625rem;
     text-transform: initial;
@@ -55,7 +60,7 @@
         padding: 0;
     }
 
-    .menu-item-has-children:hover .sub-menu {
+    .navigation .menu-item-has-children:hover .sub-menu {
         display: block;
     }
 
@@ -63,7 +68,7 @@
         position: relative;
     }
 
-    .sub-menu {
+    .navigation .sub-menu {
         display: none;
         position: absolute;
         right: 0;

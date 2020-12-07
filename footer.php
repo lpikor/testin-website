@@ -102,18 +102,12 @@
             </section>
         </div>
         <div class="footer__bottom">
-            <?php
-                if(is_front_page()) { ?>
-    
-                    <div class="badges">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/podkarpacka-nagroda-gospodarcza.webp" alt="Podkarpacka Nagroda Gospodarcza" class="badges__img">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/lodolamacze.webp" alt="Lodołamacze" class="badges__img">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/najlepsi-oferteo.webp" alt="Najlepsi Oferteo" class="badges__img">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/google-partner.webp" alt="Google Partner" class="badges__img">
-                    </div>
-                    
-                <?php }
-            ?>
+                <div class="badges">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/podkarpacka-nagroda-gospodarcza.webp" alt="Podkarpacka Nagroda Gospodarcza" class="badges__img">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/lodolamacze.webp" alt="Lodołamacze" class="badges__img">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/najlepsi-oferteo.webp" alt="Najlepsi Oferteo" class="badges__img">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/google-partner.webp" alt="Google Partner" class="badges__img">
+                </div>
             <p class="footer__footnote">Tworzymy profesjonalne strony internetowe dla klientów m.in. z miast: Rzeszów, Warszawa, Kraków, Szczecin, Lublin, Gdańsk, Bydgoszcz, Poznań.</p>
         </div>
     </div>
