@@ -23,4 +23,20 @@
             <a href="<?php echo get_permalink(9616); ?>" class="triple-cards-large__btn">Czytaj dalej</a>
         </div>
     </article>
+    <article class="triple-cards-large__item triple-cards-large__item--branding">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/brand-name.webp" alt="" class="triple-cards-large__img">
+        <div class="triple-cards-large__container">
+            <h2 class="triple-cards-large__title">Brading</h2>
+            <p class="triple-cards-large__description">Branding to niezbędny element działań, które mają na celu zwiększenie widoczności marki na rynku. Skutecznie prowadzony, gwarantuje zdobycie zaufania i lojalności klientów, a co za tym idzie - wzrost popularności i sprzedaży produktów czy usług.</p>
+            <a href="<?php echo get_permalink(9629); ?>" class="triple-cards-large__btn">Czytaj dalej</a>
+        </div>
+    </article>
+    <article class="triple-cards-large__item triple-cards-large__item--print">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/megaphone.webp" alt="" class="triple-cards-large__img">
+        <div class="triple-cards-large__container">
+            <h2 class="triple-cards-large__title">Wydruk</h2>
+            <p class="triple-cards-large__description">Działania realizowane w ramach usługi wydruku pozwolą na dodatkową promocję usług i produktów. Katalogi, broszury, ulotki, kalendarze, plakaty, teczki biurowe - zajmiemy się projektem i realizacją. Pamiętaj - druk nigdy nie wychodzi z mody.</p>
+            <a href="<?php echo get_permalink(9627); ?>" class="triple-cards-large__btn">Czytaj dalej</a>
+        </div>
+    </article>
 </div>

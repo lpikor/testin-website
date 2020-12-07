@@ -49,6 +49,16 @@
     &__item--marketing &__btn {
         color: $marketingContent;
     }
+
+    &__item--branding &__title,
+    &__item--branding &__btn {
+        color: $brandingContent;
+    }
+
+    &__item--print &__title,
+    &__item--print &__btn {
+        color: $printContent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -101,6 +111,14 @@
     
         &__item--marketing:hover {
             background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
+        }
+    
+        &__item--branding:hover {
+            background: linear-gradient(0, $brandingGradientStart, $brandingGradientEnd);
+        }
+    
+        &__item--print:hover {
+            background: linear-gradient(0, $printGradientStart, $printGradientEnd);
         }
     }
 }
