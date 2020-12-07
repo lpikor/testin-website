@@ -3,18 +3,34 @@
 }
 
 .menu-item {
-    &:hover {
+    text-align: center;
+
+    & a:hover {
         font-weight: bolder;
     }
 
-    &:active {
+    & a:active {
         color: $darkContent;
     }
 }
 
-.current-menu-item {
+.current-menu-item > a {
     color: $darkContent;
     font-weight: bolder;
+}
+
+.sub-menu {
+    margin-top: .5rem;
+    font-size: .625rem;
+    text-transform: initial;
+}
+
+.menu-item {
+    padding: .5rem;
+}
+
+.menu-item a {
+    padding: .5rem;
 }
 
 .navigation--active .menu {
@@ -31,6 +47,31 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        z-index: 999;
+    }
+
+    .menu-item {
+        text-align: right;
+        padding: 0;
+    }
+
+    .menu-item-has-children:hover .sub-menu {
+        display: block;
+    }
+
+    .menu-item-has-children {
+        position: relative;
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 200px;
+    }
+
+    .sub-menu .menu-item a {
+        display: block;
     }
 }
 
