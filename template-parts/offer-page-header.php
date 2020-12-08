@@ -1,6 +1,9 @@
-<div class="page-banner-no-img">
-    <header class="page-banner-no-img__header">
-        <h1 class="page-banner-no-img__title">Nasza oferta</h1>
-        <p class="page-banner-no-img__description">Powiedz nam, jaki cel chcesz osiągnąć, a my zajmiemy się całą resztą. Przekonaj się, dlaczego warto z nami współpracować!</p>
+<div class="page-banner-img">
+    <div class="page-banner-img__img-container">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/rwd.webp" alt="" class="page-banner-img__img">
+    </div>
+    <header class="page-banner-img__header">
+        <h1 class="page-banner-img__title">Nasza oferta</h1>
+        <p class="page-banner-img__description">Powiedz nam, jaki cel chcesz osiągnąć, a my zajmiemy się całą resztą. Przekonaj się, dlaczego warto z nami współpracować!</p>
     </header>
 </div>
