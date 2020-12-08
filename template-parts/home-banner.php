@@ -13,5 +13,12 @@
             </p>
         </div>
     </div>
-    <img src="<?php bloginfo('template_directory'); ?>/assets/images/panther-jump.gif" alt="" class="home-banner__jump">
+
+    <video width="250" class="home-banner__jump" autoplay muted loop>
+
+        <source src="<?php bloginfo('template_directory'); ?>/assets/videos/panther-jump.mp4"
+            type="video/mp4">
+            
+    </video>
+
 </div>
