@@ -360,6 +360,7 @@
 .single-post-page-header {
     & .page-banner-no-img {
         &__header {
+            flex-basis: initial;
             max-width: 1000px;
         }
     }
