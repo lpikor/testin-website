@@ -190,6 +190,16 @@
             margin-left: 0;
             margin-right: auto;
         }
+
+        &.projects-section-background::before {
+            left: 0;
+            border-top-left-radius: 0;
+            border-top-right-radius: 150px;
+        }
+
+        .projects-section-background &__title {
+            margin-left: 0;
+        }
     }
 }
 
