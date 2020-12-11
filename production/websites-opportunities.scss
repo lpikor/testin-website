@@ -20,6 +20,50 @@
     &__description {
         margin-top: 2rem;
     }
+
+    &__item:nth-child(1) &__img {
+        width: 37px;
+        height: 40px;
+    }
+
+    &__item:nth-child(2) &__img {
+        width: 29px;
+        height: 40px;
+    }
+
+    &__item:nth-child(3) &__img {
+        width: 40px;
+        height: 36px;
+    }
+
+    &__item:nth-child(4) &__img {
+        width: 40px;
+        height: 22px;
+    }
+
+    .shops-opportunities &__description {
+        font-size: 14px;
+    }
+
+    .shops-opportunities &__item:nth-child(1) &__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .shops-opportunities &__item:nth-child(2) &__img {
+        width: 40px;
+        height: 36px;
+    }
+
+    .shops-opportunities &__item:nth-child(3) &__img {
+        width: 40px;
+        height: 35px;
+    }
+
+    .shops-opportunities &__item:nth-child(4) &__img {
+        width: 40px;
+        height: 22px;
+    }
 }
 
 @media (min-width: 1024px) {

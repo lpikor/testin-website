@@ -14,6 +14,7 @@
     }
 
     &__title {
+        font-size: 30px;
         font-weight: normal;
         letter-spacing: 4px;
         text-transform: uppercase;
@@ -24,6 +25,7 @@
     }
 
     &__btn {
+        font-size: 20px;
         margin: 2rem auto 0;
 
         &::before {
@@ -77,6 +79,17 @@
             background: linear-gradient(0, $printGradientStart, $printGradientEnd);
         }
     }
+
+    .shops-contact-us &__btn,
+    .marketing-contact-us &__btn,
+    .branding-contact-us &__btn,
+    .print-contact-us &__btn {
+        font-size: 18px;
+    }
+
+    .branding-contact-us &__description {
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -96,7 +109,8 @@
             height: 100px;
             width: 100%;
             border-top-left-radius: 50px;
-            background: url('assets/images/divider-background.webp');
+            background-image: url('assets/images/divider-background.webp');
+            background-repeat: no-repeat;
         }
 
         &__container {
@@ -117,19 +131,19 @@
         }
 
         &.shops-contact-us::before {
-            background: url('assets/images/divider-background-green.webp');
+            background-image: url('assets/images/divider-background-green.webp');
         }
 
         &.marketing-contact-us::before {
-            background: url('assets/images/divider-background-orange.webp');
+            background-image: url('assets/images/divider-background-orange.webp');
         }
 
         &.branding-contact-us::before {
-            background: url('assets/images/divider-background-purple.webp');
+            background-image: url('assets/images/divider-background-purple.webp');
         }
 
         &.print-contact-us::before {
-            background: url('assets/images/divider-background-red.webp');
+            background-image: url('assets/images/divider-background-red.webp');
         }
     }
 }

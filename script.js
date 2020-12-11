@@ -14,6 +14,7 @@ const marketingCharts = document.querySelectorAll('.marketing-stats .stats__item
 marketingCharts.forEach(chart => {
     new EasyPieChart(chart, {
         'barColor': '#ff6624',
+        'trackColor': '#dcdcdc',
         'scaleLength': 0,
         'lineCap': 'square',
         'lineWidth': 7,
@@ -25,6 +26,7 @@ const brandingCharts = document.querySelectorAll('.branding-stats .stats__item-c
 brandingCharts.forEach(chart => {
     new EasyPieChart(chart, {
         'barColor': '#ac24ff',
+        'trackColor': '#dcdcdc',
         'scaleLength': 0,
         'lineCap': 'square',
         'lineWidth': 7,
@@ -36,6 +38,7 @@ const printCharts = document.querySelectorAll('.print-stats .stats__item-chart')
 printCharts.forEach(chart => {
     new EasyPieChart(chart, {
         'barColor': '#bb0f0f',
+        'trackColor': '#dcdcdc',
         'scaleLength': 0,
         'lineCap': 'square',
         'lineWidth': 7,

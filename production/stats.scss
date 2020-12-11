@@ -16,13 +16,14 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        font-size: 2rem;
+        font-size: 46px;
         transform: translate(-50%, -50%);
     }
 
     &__item-label {
         display: block;
         margin-top: 2rem;
+        font-size: 18px;
     }
 
     .marketing-stats &__item-value {

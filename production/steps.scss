@@ -31,6 +31,7 @@
 
     &__title {
         margin-top: 2rem;
+        font-size: 30px;
         font-weight: normal;
         text-transform: uppercase;
     }
@@ -99,10 +100,6 @@
 
         &__count-container {
             margin: 0;
-        }
-
-        &__title {
-            font-size: 2rem;
         }
 
         &__item:hover &__count {

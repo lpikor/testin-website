@@ -11,16 +11,19 @@
     }
 
     &__title {
+        font-size: 30px;
         letter-spacing: 4px;
         text-transform: uppercase;
     }
 
     &__description {
         margin-top: 2rem;
+        font-size: 14px;
     }
 
     &__btn {
         margin: 2rem auto 0;
+        font-size: 20px;
     }
 
     &.about-us-see-our-projects {

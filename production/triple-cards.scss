@@ -20,6 +20,7 @@
     &__title {
         margin-top: 1rem;
         color: $primaryContent;
+        font-size: 30px;
         font-weight: normal;
         letter-spacing: 4px;
         text-transform: uppercase;
@@ -64,6 +65,10 @@
 
     .print-advantages &__title {
         color: $printContent;
+    }
+
+    .offer-child-advantages &__title {
+        font-size: 48px;
     }
 }
 

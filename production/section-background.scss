@@ -30,6 +30,10 @@
         color: $shopContent;
     }
 
+    .career-section-background &__title {
+        font-size: 30px;
+    }
+
     .section-background-about-us &__paragraph,
     .career-section-background &__paragraph {
         max-width: 600px;

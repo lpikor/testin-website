@@ -26,7 +26,7 @@
 .navigation .sub-menu {
     display: block;
     margin-top: .5rem;
-    font-size: .625rem;
+    font-size: 12px;
     text-transform: initial;
 }
 
@@ -52,6 +52,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        z-index: 998;
+    }
+
+    .sub-menu {
         z-index: 999;
     }
 
@@ -71,6 +75,7 @@
     .navigation .sub-menu {
         display: none;
         position: absolute;
+        top: 19px;
         right: 0;
         width: 200px;
     }

@@ -8,8 +8,14 @@
     }
 
     &__item-title {
+        font-size: 18px;
         letter-spacing: 4px;
         text-transform: uppercase;
+    }
+
+    &__item-description {
+        margin-top: 2rem;
+        font-size: 12px;
     }
 
     &__item--websites &__item-title {
@@ -22,10 +28,6 @@
 
     &__item--marketing &__item-title {
         color: $marketingContent;
-    }
-
-    &__item-description {
-        margin-top: 2rem;
     }
 }
 
