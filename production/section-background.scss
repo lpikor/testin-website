@@ -200,6 +200,14 @@
         .projects-section-background &__title {
             margin-left: 0;
         }
+
+        &.projects-section-background::after {
+            content: url('assets/images/circles-blue.webp');
+            position: absolute;
+            top: 350px;
+            right: 100px;
+            z-index: -2;
+        }
     }
 }
 
