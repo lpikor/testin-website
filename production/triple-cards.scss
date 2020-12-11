@@ -83,6 +83,10 @@
             margin: 0 1rem;
         }
 
+        &__title {
+            height: 92px;
+        }
+
         &__item:hover {
             background: linear-gradient(0, $primaryGradientStart, $primaryGradientEnd);
             color: $lightContent;
