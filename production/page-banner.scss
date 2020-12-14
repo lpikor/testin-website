@@ -180,6 +180,21 @@
             background: $primaryContent;
             opacity: .25;
         }
+
+        &-container.career-page-header-container {
+            position: relative;
+        }
+
+        &-container.career-page-header-container::before {
+            content: '';
+            position: absolute;
+            top: 211px;
+            right: 0;
+            width: calc(50vw - 35px);
+            height: 2px;
+            background: $primaryContent;
+            opacity: .25;
+        }
     }
 }
 
@@ -193,6 +208,11 @@
 
         &-container.about-us-page-header-container::before {
             width: calc(50vw - 92px);
+        }
+
+        &-container.career-page-header-container::before {
+            top: 192px;
+            width: calc(50vw - 43px);
         }
     }
 }
