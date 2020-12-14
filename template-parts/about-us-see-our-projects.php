@@ -7,6 +7,6 @@
                 <h2 class="see-more-projects__title">Zobacz nasze realizacje</h2>
                 <p class="see-more-projects__description">Przekonaj się o wyjątkowej atrakcyjności  i wysokiej jakości  wykonania naszych projektów!</p>
             </header>
-            <a href="http://localhost/testin/realizacje/" class="see-more-projects__btn btn">Portfolio</a>
+            <a href="<?php echo get_permalink(9596); ?>" class="see-more-projects__btn btn">Portfolio</a>
         </div>
     </section>
