@@ -140,6 +140,17 @@
             height: 100%;
         }
 
+        &.career-section-background::after {
+            content: '';
+            position: absolute;
+            top: 102px;
+            right: 0;
+            width: calc(50vw - -119px);
+            height: 2px;
+            background: $primaryContent;
+            opacity: .25;
+        }
+
         .career-section-background &__text {
             max-width: 1300px;
             margin: 0 auto;
@@ -207,6 +218,33 @@
             top: 350px;
             right: 100px;
             z-index: -2;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .section-background {
+        
+        &.career-section-background::after {
+            width: calc(50vw - 10px);
+        }
+    }
+}
+
+@media (min-width: 1366px) {
+    .section-background {
+        
+        &.career-section-background::after {
+            width: calc(50vw - 52px);
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .section-background {
+        
+        &.career-section-background::after {
+            width: calc(50vw - 60px);
         }
     }
 }
