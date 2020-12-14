@@ -2,6 +2,7 @@
     margin: 2rem 0;
 
     &__item {
+        text-align: center;
         max-width: 600px;
         margin: 0 auto;
         padding: 2rem 1rem;
@@ -42,6 +43,7 @@
         padding: 0 2rem 8rem;
 
         &__item {
+            text-align: left;
             max-width: none;
             padding: 0;
         }
