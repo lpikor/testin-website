@@ -52,5 +52,9 @@
             background: url(assets/images/divider-background.webp);
             border-top-left-radius: 150px;
         }
+
+        .about-us-trusted-by &__header::after {
+            max-width: 1612px;
+        }
     }
 }
