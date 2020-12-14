@@ -165,6 +165,21 @@
             background: $primaryContent;
             opacity: .25;
         }
+
+        &-container.about-us-page-header-container {
+            position: relative;
+        }
+
+        &-container.about-us-page-header-container::before {
+            content: '';
+            position: absolute;
+            top: 68px;
+            right: 0;
+            width: calc(50vw - 45px);
+            height: 2px;
+            background: $primaryContent;
+            opacity: .25;
+        }
     }
 }
 
@@ -175,6 +190,10 @@
             top: 120px;
             width: calc(50vw - 80px);
         }
+
+        &-container.about-us-page-header-container::before {
+            width: calc(50vw - 92px);
+        }
     }
 }
 
@@ -184,6 +203,10 @@
         &-container.blog-page-header-container::before {
             top: 120px;
             width: calc(50vw - 92px);
+        }
+
+        &-container.about-us-page-header-container::before {
+            width: calc(50vw - 105px);
         }
     }
 }
