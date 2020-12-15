@@ -254,6 +254,11 @@
             &__motto-container {
                 flex-basis: 35%;
             }
+
+            &__description {
+                max-width: 350px;
+                margin-left: auto;
+            }
         }
     }
 }
