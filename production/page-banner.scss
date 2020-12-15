@@ -77,7 +77,13 @@
     }
 
     .marketing-page-header &__title {
+        text-align: left;
         color: $marketingContent;
+    }
+
+    .marketing-page-header &__description {
+        max-width: 350px;
+        margin-left: auto;
     }
 
     .branding-page-header &__title {
