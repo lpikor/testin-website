@@ -63,4 +63,33 @@
             }
         }
     }
+
+    .shops-advantages-container {
+        position: relative;
+    }
+
+    .shops-advantages-container::after {
+        content: '';
+        position: absolute;
+        top: 98px;
+        right: 0;
+        width: calc(50vw - -304px);
+        height: 2px;
+        background: $shopContent;
+        opacity: .25;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .shops-advantages-container::after {
+        width: calc(50vw - -177px);
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .shops-advantages-container::after {
+        width: calc(50vw - -158px);
+    }
 }
