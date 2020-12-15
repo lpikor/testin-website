@@ -117,6 +117,11 @@
             background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
         }
 
+        .shops-advantages &__title {
+            height: 150px;
+            width: 300px;
+        }
+
         .marketing-advantages &__item:hover {
             background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
         }
