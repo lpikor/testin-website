@@ -94,7 +94,11 @@
             margin-left: auto;
         }
 
-        &::after {
+        &.section-background-websites {
+            margin-bottom: 200px;
+        }
+
+        &.section-background-websites::after {
             content: '';
             position: absolute;
             top: 137px;
@@ -236,7 +240,7 @@
 @media (min-width: 1280px) {
     .section-background {
 
-        &::after {
+        &.section-background-websites::after {
             width: calc(50vw - 9px);
         }
         
@@ -249,7 +253,7 @@
 @media (min-width: 1366px) {
     .section-background {
 
-        &::after {
+        &.section-background-websites::after {
             width: calc(50vw - 53px);
         }
         
@@ -262,7 +266,7 @@
 @media (min-width: 1440px) {
     .section-background {
 
-        &::after {
+        &.section-background-websites::after {
             width: calc(50vw - 60px);
         }
         

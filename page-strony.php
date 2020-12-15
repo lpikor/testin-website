@@ -8,7 +8,7 @@
 
     get_template_part('template-parts/websites-opportunities');
 
-    get_template_part('template-parts/our-projects');
+    get_template_part('template-parts/websites-our-projects');
 
     get_template_part('template-parts/websites-encouragement');
 
