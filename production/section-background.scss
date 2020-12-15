@@ -94,6 +94,17 @@
             margin-left: auto;
         }
 
+        &::after {
+            content: '';
+            position: absolute;
+            top: 137px;
+            right: 0;
+            width: calc(50vw - -118px);
+            height: 2px;
+            background: $primaryContent;
+            opacity: .25;
+        }
+
         .projects-section-background {
             margin: 8rem 0;
         }
@@ -224,6 +235,10 @@
 
 @media (min-width: 1280px) {
     .section-background {
+
+        &::after {
+            width: calc(50vw - 9px);
+        }
         
         &.career-section-background::after {
             width: calc(50vw - 10px);
@@ -233,6 +248,10 @@
 
 @media (min-width: 1366px) {
     .section-background {
+
+        &::after {
+            width: calc(50vw - 53px);
+        }
         
         &.career-section-background::after {
             width: calc(50vw - 52px);
@@ -242,6 +261,10 @@
 
 @media (min-width: 1440px) {
     .section-background {
+
+        &::after {
+            width: calc(50vw - 60px);
+        }
         
         &.career-section-background::after {
             width: calc(50vw - 60px);
