@@ -62,34 +62,74 @@
                 padding: 0 1rem;
             }
         }
+
+        .marketing-advantages-container &__header,
+        .branding-advantages-container &__header,
+        .print-advantages-container &__header {
+            max-width: 930px;
+        }
     }
 
-    .shops-advantages-container {
+    .offer-child-advantages-container {
         position: relative;
     }
 
-    .shops-advantages-container::after {
+    .offer-child-advantages-container::after {
         content: '';
         position: absolute;
         top: 98px;
         right: 0;
         width: calc(50vw - -304px);
         height: 2px;
-        background: $shopContent;
+        background: $primaryContent;
         opacity: .25;
+    }
+
+    .shops-advantages-container::after {
+        background: $shopContent;
+    }
+
+    .marketing-advantages-container::after,
+    .branding-advantages-container::after,
+    .print-advantages-container::after {
+        width: calc(50vw - -433px);
+    }
+
+    .marketing-advantages-container::after {
+        background: $marketingContent;
+    }
+
+    .branding-advantages-container::after {
+        background: $brandingContent;
+    }
+
+    .print-advantages-container::after {
+        background: $printContent;
     }
 }
 
 @media (min-width: 1280px) {
 
-    .shops-advantages-container::after {
+    .offer-child-advantages-container::after {
         width: calc(50vw - -177px);
+    }
+
+    .marketing-advantages-container::after,
+    .branding-advantages-container::after,
+    .print-advantages-container::after {
+        width: calc(50vw - -304px);
     }
 }
 
 @media (min-width: 1366px) {
 
-    .shops-advantages-container::after {
+    .offer-child-advantages-container::after {
         width: calc(50vw - -158px);
+    }
+
+    .marketing-advantages-container::after,
+    .branding-advantages-container::after,
+    .print-advantages-container::after {
+        width: calc(50vw - -287px);
     }
 }
