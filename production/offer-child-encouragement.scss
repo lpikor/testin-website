@@ -63,6 +63,15 @@
             padding: 2rem;
         }
 
+        .shops-encouragement &__container {
+            flex-direction: row-reverse;
+        }
+
+        .shops-encouragement &__header {
+            text-align: right;
+            max-width: 520px;
+        }
+
         &.shops-encouragement::before {
             background: url('assets/images/divider-background-green.webp');
         }
