@@ -1,5 +1,3 @@
-
-
 .offer-child-why-trust-us {
     text-align: center;
     margin: 4rem 0;
@@ -73,5 +71,32 @@
             width: 100%;
             margin-top: 2rem;
         }
+    }
+
+    .websites-why-trust-us-container {
+        position: relative;
+    }
+
+    .websites-why-trust-us-container::after {
+        content: '';
+        position: absolute;
+        top: 98px;
+        right: 0;
+        width: calc(50vw - -402px);
+        height: 2px;
+        background: $primaryContent;
+        opacity: .25;
+    }
+}
+
+@media (min-width: 1280px) {
+    .websites-why-trust-us-container::after {
+        width: calc(50vw - -276px);
+    }
+}
+
+@media (min-width: 1366px) {
+    .websites-why-trust-us-container::after {
+        width: calc(50vw - -257px);
     }
 }
