@@ -87,6 +87,11 @@
             margin-left: auto;
         }
 
+        .shops-your-best &__header {
+            text-align: right;
+            max-width: 520px;
+        }
+
         &.shops-your-best::before {
             background: url(assets/images/divider-background-green.webp);
         }
