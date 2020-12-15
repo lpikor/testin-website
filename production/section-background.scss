@@ -94,6 +94,17 @@
             margin-left: auto;
         }
 
+        .section-background-websites &__description-container {
+            max-width: 600px;
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        .section-background-websites &__description {
+            max-width: 550px;
+            margin-left: 0;
+        }
+
         &.section-background-websites {
             margin-bottom: 200px;
         }
