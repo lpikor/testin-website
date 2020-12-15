@@ -51,4 +51,33 @@
             font-size: 3rem;
         }
     }
+
+    .websites-how-steps-container {
+        position: relative;
+    }
+
+    .websites-how-steps-container::after {
+        content: '';
+        position: absolute;
+        top: 98px;
+        right: 0;
+        width: calc(50vw - -304px);
+        height: 2px;
+        background: $primaryContent;
+        opacity: .25;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .websites-how-steps-container::after {
+        width: calc(50vw - -175px);
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .websites-how-steps-container::after {
+        width: calc(50vw - -157px);
+    }
 }
