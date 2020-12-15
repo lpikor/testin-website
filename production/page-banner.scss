@@ -46,11 +46,19 @@
     padding: 1rem;
 
     &__img-container {
-        display: none;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    &__img {
+        width: 100%;
     }
 
     &__title {
+        color: $primaryContent;
         font-size: 100px;
+        line-height: 1;
+        text-transform: uppercase;
     }
 
     &__motto-container {
@@ -62,6 +70,22 @@
         width: 100%;
         max-width: 500px;
         margin: 0 auto;
+    }
+
+    .shops-page-header &__title {
+        color: $shopContent;
+    }
+
+    .marketing-page-header &__title {
+        color: $marketingContent;
+    }
+
+    .branding-page-header &__title {
+        color: $brandingContent;
+    }
+
+    .print-page-header &__title {
+        color: $printContent;
     }
 }
 
@@ -77,12 +101,6 @@
         &__img-container {
             display: block;
             flex-basis: 45%;
-        }
-
-        &__title {
-            color: $primaryContent;
-            line-height: 1;
-            text-transform: uppercase;
         }
 
         &__img {
@@ -231,8 +249,6 @@
     }
 }
 
-
-
 @media (min-width: 1024px) {
     .shops-page-header {
         align-items: center;
@@ -245,10 +261,6 @@
 
             &__img {
                 top: 17px;
-            }
-
-            &__title {
-                color: $shopContent;
             }
             
             &__motto-container {
@@ -270,7 +282,6 @@
         & .page-banner-motto {
             &__title {
                 text-align: center;
-                color: $brandingContent;
             }
         }
     }
@@ -283,7 +294,6 @@
         & .page-banner-motto {
             &__title {
                 text-align: center;
-                color: $printContent;
             }
         }
     }
