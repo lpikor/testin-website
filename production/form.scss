@@ -28,9 +28,6 @@ div.wpcf7 {
     }
     
     & .btn {
-        display: inline-block;
-        position: relative;
-        max-width: 350px;
         margin: 0 auto;
     }
 }
@@ -53,5 +50,41 @@ div.wpcf7 {
 
     .form-group {
         text-align: left;
+
+        & .btn {
+            right: 20px;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .form-group {
+        & .btn {
+            right: -50px;
+        }
+    }
+}
+
+@media (min-width: 1366px) {
+    .form-group {
+        & .btn {
+            right: -20px;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .form-group {
+        & .btn {
+            right: -40px;
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .form-group {
+        & .btn {
+            right: -20px;
+        }
     }
 }

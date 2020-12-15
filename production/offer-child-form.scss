@@ -10,15 +10,23 @@
         text-transform: uppercase;
     }
 
-    & .btn {
+    & .btn input {
+        background: transparent;
+        color: $primaryContent;
         font-size: 20px;
+        font-family: 'Annie Use Your Telescope', cursive;
+        text-transform: lowercase;
     }
 
     &.shops-form {
         background: linear-gradient(0, $shopGradientStart, $shopGradientEnd);
     }
 
-    &.shops-form .btn {
+    &.shops-form .btn input {
+        color: $shopContent;
+    }
+
+    &.shops-form .btn::after {
         color: $shopContent;
     }
 
@@ -26,7 +34,11 @@
         background: linear-gradient(0, $marketingGradientStart, $marketingGradientEnd);
     }
 
-    &.marketing-form .btn {
+    &.marketing-form .btn input {
+        color: $marketingContent;
+    }
+
+    &.marketing-form .btn::after {
         color: $marketingContent;
     }
 
@@ -34,7 +46,11 @@
         background: linear-gradient(0, $brandingGradientStart, $brandingGradientEnd);
     }
 
-    &.branding-form .btn {
+    &.branding-form .btn input {
+        color: $brandingContent;
+    }
+
+    &.branding-form .btn::after {
         color: $brandingContent;
     }
 
@@ -42,7 +58,11 @@
         background: linear-gradient(0, $printGradientStart, $printGradientEnd);
     }
 
-    &.print-form .btn {
+    &.print-form .btn input {
+        color: $printContent;
+    }
+
+    &.print-form .btn::after {
         color: $printContent;
     }
 
@@ -102,7 +122,7 @@
     .form-group {
         width: 100%;
 
-        & .btn {
+        & .btn input {
             align-self: flex-end;
         }
     }
