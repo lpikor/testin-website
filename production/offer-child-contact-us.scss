@@ -110,6 +110,10 @@
             margin: 0;
         }
 
+        .websites-contact-us &__description {
+            max-width: 550px;
+        }
+
         &.shops-contact-us::before {
             background-image: url('assets/images/divider-background-green.webp');
         }
