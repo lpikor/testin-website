@@ -118,6 +118,14 @@
             background-image: url('assets/images/divider-background-green.webp');
         }
 
+        .shops-contact-us &__header {
+            max-width: 550px;
+        }
+
+        .shops-contact-us &__description {
+            max-width: 515px;
+        }
+
         &.marketing-contact-us::before {
             background-image: url('assets/images/divider-background-orange.webp');
         }
