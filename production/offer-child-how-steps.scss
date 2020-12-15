@@ -54,6 +54,17 @@
         .websites-how-steps &__description {
             max-width: 500px;
         }
+
+        &.websites-how-steps::before {
+            content: '';
+            position: absolute;
+            bottom: -125px;
+            left: -25px;
+            width: 300px;
+            height: 250px;
+            background-image: url('assets/images/dog-circles.webp');
+            background-size: cover;
+        }
     }
 
     .websites-how-steps-container {
@@ -83,5 +94,17 @@
 
     .websites-how-steps-container::after {
         width: calc(50vw - -157px);
+    }
+}
+
+@media (min-width: 1920px) {
+    .offer-child-how-steps {
+
+        &.websites-how-steps::before {
+            bottom: -150px;
+            left: -50px;
+            width: 513px;
+            height: 419px;
+        }
     }
 }
