@@ -67,11 +67,11 @@
         }
     }
 
-    .websites-how-steps-container {
+    .offer-child-how-steps-container {
         position: relative;
     }
 
-    .websites-how-steps-container::after {
+    .offer-child-how-steps-container::after {
         content: '';
         position: absolute;
         top: 98px;
@@ -81,18 +81,34 @@
         background: $primaryContent;
         opacity: .25;
     }
+
+    .shops-how-steps-container::after {
+        background: $shopContent;
+    }
+
+    .marketing-how-steps-container::after {
+        background: $marketingContent;
+    }
+
+    .branding-how-steps-container::after {
+        background: $brandingContent;
+    }
+
+    .print-how-steps-container::after {
+        background: $printContent;
+    }
 }
 
 @media (min-width: 1280px) {
 
-    .websites-how-steps-container::after {
+    .offer-child-how-steps-container::after {
         width: calc(50vw - -175px);
     }
 }
 
 @media (min-width: 1366px) {
 
-    .websites-how-steps-container::after {
+    .offer-child-how-steps-container::after {
         width: calc(50vw - -157px);
     }
 }
