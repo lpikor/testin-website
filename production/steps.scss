@@ -136,5 +136,21 @@
         .print-how-steps &__item:hover &__count-container {
             background: linear-gradient(0, $printGradientStart, $printGradientEnd);
         }
+
+        .shops-how-steps &__item:nth-child(1) &__content {
+            max-width: 900px;
+        }
+
+        .shops-how-steps &__item:nth-child(1) &__description {
+            max-width: 590px;
+        }
+
+        .shops-how-steps &__item:nth-child(2) &__content {
+            max-width: 700px;
+        }
+
+        .shops-how-steps &__item:nth-child(4) &__content {
+            max-width: 528px;
+        }
     }
 }
