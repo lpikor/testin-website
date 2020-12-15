@@ -50,6 +50,10 @@
         &__title {
             font-size: 3rem;
         }
+
+        .websites-how-steps &__description {
+            max-width: 500px;
+        }
     }
 
     .websites-how-steps-container {
