@@ -130,6 +130,10 @@
             background-image: url('assets/images/divider-background-orange.webp');
         }
 
+        .marketing-contact-us &__header {
+            max-width: 530px;
+        }
+
         &.branding-contact-us::before {
             background-image: url('assets/images/divider-background-purple.webp');
         }
