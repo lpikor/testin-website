@@ -85,7 +85,15 @@
 
         &__content {
             text-align: left;
-            max-width: 500px;
+            max-width: 568px;
+        }
+
+        &__item:nth-child(2) &__content {
+            max-width: 600px;
+        }
+
+        &__item:nth-child(3) &__content {
+            max-width: 625px;
         }
 
         &__img {

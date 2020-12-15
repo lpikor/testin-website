@@ -13,7 +13,7 @@
                         <span class="steps__count">1</span>
                     </div>
                     <h3 class="steps__title">Zbieramy wytyczne i założenia</h3>
-                    <p class="steps__description">Jest to jeden z najważniejszych etapów, ponieważ właśnie w tym momencie dowiadujemy się o Twoich potrzebach i oczekiwaniach.</p>
+                    <p class="steps__description">Jest to jeden z najważniejszych etapów, ponieważ właśnie w<br />tym momencie dowiadujemy się o Twoich potrzebach i oczekiwaniach.</p>
                 </div>
             </article>
             <article class="steps__item">
