@@ -65,6 +65,17 @@
             background-image: url('assets/images/dog-circles.webp');
             background-size: cover;
         }
+
+        &.shops-how-steps::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: -25px;
+            width: 270px;
+            height: 250px;
+            background-image: url('assets/images/panther-circles-green.webp');
+            background-size: cover;
+        }
     }
 
     .offer-child-how-steps-container {
@@ -121,6 +132,13 @@
             left: -50px;
             width: 513px;
             height: 419px;
+        }
+
+        &.shops-how-steps::before {
+            left: 50px;
+            bottom: -50px;
+            width: 447px;
+            height: 415px;
         }
     }
 }
