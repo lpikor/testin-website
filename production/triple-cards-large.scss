@@ -122,5 +122,58 @@
         &__item--print:hover {
             background: linear-gradient(0, $printGradientStart, $printGradientEnd);
         }
+    
+        &__item--active {
+            position: relative;
+            padding-bottom: 100px;
+            border-top-right-radius: 200px;
+            background: linear-gradient(0, $primaryGradientStart, $primaryGradientEnd);
+            color: $lightContent;
+        }
+    
+        &__item--active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            height: 100px;
+            width: 100%;
+            background: url('assets/images/divider-background.webp');
+        }
+
+        &.career-cards {
+            position: relative;
+        }
+    
+        &.career-cards::before {
+            content: '';
+            position: absolute;
+            bottom: 250px;
+            left: 1200px;
+            width: 571px;
+            height: 651px;
+            background: url('assets/images/circles-blue.webp');
+            background-size: cover;
+            z-index: 1;
+        }
+    
+        &.career-cards::after {
+            content: '';
+            position: absolute;
+            bottom: -144px;
+            right: 1550px;
+            width: 327px;
+            height: 327px;
+            background: url('assets/images/circle-blue-dashed-small.webp');
+            background-size: cover;
+            z-index: 1;
+        }
+    
+        .career-cards &__item {
+            z-index: 2;
+        }
+    
+        .career-cards &__description {
+            max-width: 340px;
+        }
     }
 }

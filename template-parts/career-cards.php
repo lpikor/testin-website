@@ -1,5 +1,5 @@
 <div class="triple-cards-large career-cards">
-    <article class="triple-cards-large__item">
+    <article class="triple-cards-large__item triple-cards-large__item--active">
         <img src="http://localhost/testin/wp-content/themes/testin-website/assets/images/applications.webp" alt="" class="triple-cards-large__img">
         <div class="triple-cards-large__container">
             <p class="triple-cards-large__description">Sprawdź, czy prowadzimy rekrutację i wyślij swoje zgłoszenie. Dołącz do najbardziej kreatywnego teamu w mieście. </p>
