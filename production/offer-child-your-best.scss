@@ -100,6 +100,14 @@
             max-width: 520px;
         }
 
+        .branding-your-best &__container {
+            flex-direction: row-reverse;
+        }
+
+        .branding-your-best &__header {
+            max-width: 500px;
+        }
+
         &.shops-your-best::before {
             background: url(assets/images/divider-background-green.webp);
         }
