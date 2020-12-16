@@ -184,5 +184,17 @@
         .branding-how-steps &__item:nth-child(5) &__content {
             max-width: 478px;
         }
+
+        .print-how-steps &__item:nth-child(3) &__content {
+            max-width: 640px;
+        }
+
+        .print-how-steps &__item:nth-child(4) &__content {
+            max-width: 535px;
+        }
+
+        .print-how-steps &__item:nth-child(5) &__content {
+            max-width: 530px;
+        }
     }
 }
