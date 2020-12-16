@@ -13,7 +13,7 @@
                         <span class="steps__count">1</span>
                     </div>
                     <h3 class="steps__title">Zbieramy wytyczne i założenia</h3>
-                    <p class="steps__description">Jest to jeden z najważniejszych etapów, ponieważ właśnie w tym momencie dowiadujemy się o Twoich potrzebach i oczekiwaniach.</p>
+                    <p class="steps__description">Jest to jeden z najważniejszych etapów, ponieważ właśnie w<br />tym momencie dowiadujemy się o Twoich potrzebach i oczekiwaniach.</p>
                 </div>
             </article>
             <article class="steps__item">
@@ -22,7 +22,7 @@
                     <div class="steps__count-container">
                         <span class="steps__count">2</span>
                     </div>
-                    <h3 class="steps__title">Podpisujemy umowę i ustalamy harmonogram prac</h3>
+                    <h3 class="steps__title">Podpisujemy umowę<br />i ustalamy harmonogram prac</h3>
                     <p class="steps__description">Po wspólnym wypracowaniu najlepszych rozwiązań finalizujemy dotychczasowe ustalenia w formie umowy i ustalamy szczegóły dotyczące dalszej współpracy.</p>
                 </div>
             </article>
