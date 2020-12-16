@@ -1,4 +1,5 @@
-<section class="section offer-child-stats branding-stats">
+<div class="offer-child-stats-container branding-stats-container">
+    <section class="section offer-child-stats branding-stats">
         <header class="offer-child-stats__header">
             <h2 class="offer-child-stats__title">Co Ci da branding?</h2>
             <p class="offer-child-stats__description">Zastanawiasz się, czy warto postawić na współpracę z profesjonalną agencją?</p>
@@ -29,4 +30,5 @@
                 <span class="stats__item-label">Pozytywnych skojarzeń i emocji związanych z marką</span>
             </article>
         </div>
-</section>
+    </section>
+</div>

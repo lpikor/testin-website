@@ -47,4 +47,43 @@
             font-size: 3rem;
         }
     }
+
+    .offer-child-stats-container {
+        position: relative;
+    }
+
+    .offer-child-stats-container::after {
+        content: '';
+        position: absolute;
+        top: 98px;
+        right: 0;
+        width: calc(50vw - -304px);
+        height: 2px;
+        background: $primaryContent;
+        opacity: .25;
+    }
+
+    &.marketing-stats-container::after {
+        background: $marketingContent;
+    }
+
+    &.branding-stats-container::after {
+        background: $brandingContent;
+    }
+
+    &.print-stats-container::after {
+        background: $printContent;
+    }
+}
+
+@media (min-width: 1280px) {
+    .offer-child-stats-container::after {
+        width: calc(50vw - -176px);
+    }
+}
+
+@media (min-width: 1366px) {
+    .offer-child-stats-container::after {
+        width: calc(50vw - -157px);
+    }
 }

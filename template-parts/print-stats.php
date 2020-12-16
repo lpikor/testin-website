@@ -1,4 +1,5 @@
-<section class="section offer-child-stats print-stats">
+<div class="offer-child-stats-container print-stats-container">
+    <section class="section offer-child-stats print-stats">
         <header class="offer-child-stats__header">
             <h2 class="offer-child-stats__title">Wydruk w liczbach</h2>
             <p class="offer-child-stats__description">Potrzebujesz dowodów na to, że marketing w internecie jest skuteczny i potrzebny również Twojej firmie? Zobacz, co dzięki niemu udało nam się osiągnąć!</p>
@@ -29,4 +30,5 @@
                 <span class="stats__item-label">Zleceń zakończonych sukcesem</span>
             </article>
         </div>
-</section>
+    </section>
+</div>
