@@ -1,4 +1,26 @@
-<div class="home-contact-us-bottom"></div>
+<?php
+    if(is_page('sklepy-internetowe')) {
+        ?>
+            <div class="home-contact-us-bottom home-contact-us-bottom--shops"></div>
+        <?php
+    } else if(is_page('marketing-internetowy')) {
+        ?>
+            <div class="home-contact-us-bottom home-contact-us-bottom--marketing"></div>
+        <?php
+    } else if(is_page('branding')) {
+        ?>
+            <div class="home-contact-us-bottom home-contact-us-bottom--branding"></div>
+        <?php
+    } else if(is_page('wydruk')) {
+        ?>
+            <div class="home-contact-us-bottom home-contact-us-bottom--print"></div>
+        <?php
+    } else {
+        ?>
+            <div class="home-contact-us-bottom"></div>
+        <?php
+    }
+?>
 
 <?php
     if(is_front_page()) { ?>

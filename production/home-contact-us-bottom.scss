@@ -13,6 +13,22 @@
         width: 100%;
         background: url('assets/images/divider-background.webp');
     }
+
+    &.home-contact-us-bottom--shops::before {
+        background: url('assets/images/divider-background-green.webp');
+    }
+
+    &.home-contact-us-bottom--marketing::before {
+        background: url('assets/images/divider-background-orange.webp');
+    }
+
+    &.home-contact-us-bottom--branding::before {
+        background: url('assets/images/divider-background-purple.webp');
+    }
+
+    &.home-contact-us-bottom--print::before {
+        background: url('assets/images/divider-background-red.webp');
+    }
 }
 
 @media (min-width: 1024px) {
