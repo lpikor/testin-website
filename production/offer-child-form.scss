@@ -90,6 +90,21 @@
             background: url('assets/images/divider-background.webp');
         }
 
+        &::before {
+            content: '';
+            position: absolute;
+            top: 115px;
+            left: 0;
+            width: calc(50vw - -231px);
+            height: 2px;
+            background: $lightContent;
+            opacity: .25;
+        }
+
+        &.contact-form::before {
+            width: calc(50vw - 92px);
+        }
+
         &__title {
             max-width: 800px;
             margin-left: auto;
@@ -138,5 +153,75 @@
 
     &.offer-child-form::after {
         content: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    
+    .offer-child-form {
+
+        &::before {
+            width: calc(50vw - -358px);
+        }
+
+        &.contact-form::before {
+            width: calc(50vw - 136px);
+        }
+    }
+}
+
+@media (min-width: 1366px) {
+    
+    .offer-child-form {
+
+        &::before {
+            width: calc(50vw - -399px);
+        }
+
+        &.contact-form::before {
+            width: calc(50vw - 213px);
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    .offer-child-form {
+
+        &::before {
+            width: calc(50vw - -436px);
+        }
+
+        &.contact-form::before {
+            width: calc(50vw - 230px);
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    
+    .offer-child-form {
+
+        &::before {
+            width: calc(50vw - -374px);
+        }
+
+        &.contact-form::before {
+            width: calc(50vw - 275px);
+        }
+    }
+}
+
+@media (min-width: 2560px) {
+    
+    .offer-child-form {
+
+        &::before {
+            width: calc(50vw - -54px);
+        }
+
+        &.contact-form::before {
+            width: calc(50vw - 380px);
+        }
     }
 }
