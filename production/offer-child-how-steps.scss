@@ -76,6 +76,22 @@
             background-image: url('assets/images/panther-circles-green.webp');
             background-size: cover;
         }
+
+        .shops-how-steps &__description {
+            max-width: 683px;
+        }
+
+        .marketing-how-steps &__description {
+            max-width: 470px;
+        }
+
+        .branding-how-steps &__description {
+            max-width: 470px;
+        }
+        
+        .print-how-steps &__description {
+            max-width: 470px;
+        }
     }
 
     .offer-child-how-steps-container {
