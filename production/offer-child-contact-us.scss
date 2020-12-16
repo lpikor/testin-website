@@ -141,5 +141,9 @@
         &.print-contact-us::before {
             background-image: url('assets/images/divider-background-red.webp');
         }
+
+        .print-contact-us &__header {
+            max-width: 530px;
+        }
     }
 }
