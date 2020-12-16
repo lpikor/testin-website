@@ -164,5 +164,25 @@
         .marketing-how-steps &__item:nth-child(5) &__content {
             max-width: 494px;
         }
+
+        .branding-how-steps &__item:nth-child(1) &__content {
+            max-width: 578px;
+        }
+
+        .branding-how-steps &__item:nth-child(2) &__title {
+            max-width: 500px;
+        }
+
+        .branding-how-steps &__item:nth-child(3) &__content {
+            max-width: 650px;
+        }
+
+        .branding-how-steps &__item:nth-child(3) &__title {
+            max-width: 350px;
+        }
+
+        .branding-how-steps &__item:nth-child(5) &__content {
+            max-width: 478px;
+        }
     }
 }
