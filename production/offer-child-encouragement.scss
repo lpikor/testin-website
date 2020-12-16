@@ -80,6 +80,14 @@
             max-width: 515px;
         }
 
+        .print-encouragement &__header {
+            max-width: 570px;
+        }
+
+        .print-encouragement &__description {
+            max-width: 515px;
+        }
+
         &.shops-encouragement::before {
             background: url('assets/images/divider-background-green.webp');
         }
