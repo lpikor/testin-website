@@ -20,10 +20,10 @@
                         <span class="media__value">biuro@testin.pl</span>
                     </span>
                 </a>
-                <a href="tel:+48553311324">
+                <a href="tel:+48533311324">
                     <span class="media__item">
                         <img src="<?php bloginfo('template_directory'); ?>/assets/images/mobile-icon-dark.webp" alt="Adres e-mail" class="media__icon icon icon--small">
-                        <span class="media__value">+48 553 311 324</span>
+                        <span class="media__value">+48 533 311 324</span>
                     </span>
                 </a>
                 <div class="social-media">

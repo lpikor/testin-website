@@ -58,7 +58,7 @@
                 <div class="footer__section-container">
                     <article class="residence">
                         <h3 class="residence__title">Rzeszów - siedziba główna</h3>
-                        <span class="residence__contact">+48 553 311 324</span>
+                        <span class="residence__contact">+48 533 311 324</span>
                         <span class="residence__contact">biuro@testin.pl</span>
                     </article>
                     <article class="residence">
