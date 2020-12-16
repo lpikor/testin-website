@@ -72,6 +72,14 @@
             max-width: 520px;
         }
 
+        .branding-encouragement &__header {
+            max-width: 550px;
+        }
+
+        .branding-encouragement &__description {
+            max-width: 515px;
+        }
+
         &.shops-encouragement::before {
             background: url('assets/images/divider-background-green.webp');
         }
