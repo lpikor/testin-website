@@ -565,11 +565,19 @@
     }
 
     .pogotowie-warzywne-page-header-container::after {
-        width: calc(50vw - 34px);
+        width: calc(50vw - -234px);
         background: $pogotowieWarzywneContent;
     }
 
+    .polska-kulturalna-page-header-container .page-banner-no-img__header,
+    .pogotowie-warzywne-page-header-container .page-banner-no-img__header {
+        flex-basis: 75%;
+        max-width: 900px;
+    }
+
     .polska-kulturalna-page-header-container::after {
+        top: 85px;
+        width: calc(50vw - -234px);
         background: $polskaKulturalnaContent;
     }
 
