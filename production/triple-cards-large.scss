@@ -140,6 +140,14 @@
             background: url('assets/images/divider-background.webp');
         }
 
+        &__item--active &__title {
+            color: $lightContent;
+        }
+
+        &__item--active &__btn {
+            color: $lightContent;
+        }
+
         &.career-cards {
             position: relative;
         }

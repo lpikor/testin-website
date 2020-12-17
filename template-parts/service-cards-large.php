@@ -1,5 +1,5 @@
 <div class="triple-cards-large">
-    <article class="triple-cards-large__item">
+    <article class="triple-cards-large__item triple-cards-large__item--active">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/meeting.webp" alt="" class="triple-cards-large__img">
         <div class="triple-cards-large__container">
             <h2 class="triple-cards-large__title">Strony www</h2>
