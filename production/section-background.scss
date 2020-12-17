@@ -324,8 +324,13 @@
             padding: 1rem;
         }
 
+        .section-background-about-us &__paragraph {
+            max-width: 507px;
+        }
+
         .section-background-about-us &__paragraph:first-child {
             text-align: right;
+            max-width: 542px;
         }
 
         .internships-wings &__title {
