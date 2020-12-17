@@ -94,6 +94,17 @@
             margin-left: auto;
         }
 
+        &.home-section-background::after {
+            content: '';
+            position: absolute;
+            top: 115px;
+            right: 0;
+            width: calc(50vw - -111px);
+            height: 2px;
+            background: $primaryContent;
+            opacity: .25;
+        }
+
         .section-background-websites &__description-container {
             max-width: 600px;
             margin-right: 0;
@@ -114,7 +125,7 @@
             position: absolute;
             top: 137px;
             right: 0;
-            width: calc(50vw - -118px);
+            width: calc(50vw - -116px);
             height: 2px;
             background: $primaryContent;
             opacity: .25;
@@ -251,6 +262,10 @@
 @media (min-width: 1280px) {
     .section-background {
 
+        &.home-section-background::after {
+            width: calc(50vw - 9px);
+        }
+
         &.section-background-websites::after {
             width: calc(50vw - 9px);
         }
@@ -264,6 +279,10 @@
 @media (min-width: 1366px) {
     .section-background {
 
+        &.home-section-background::after {
+            width: calc(50vw - 53px);
+        }
+
         &.section-background-websites::after {
             width: calc(50vw - 53px);
         }
@@ -276,6 +295,10 @@
 
 @media (min-width: 1440px) {
     .section-background {
+
+        &.home-section-background::after {
+            width: calc(50vw - 60px);
+        }
 
         &.section-background-websites::after {
             width: calc(50vw - 60px);

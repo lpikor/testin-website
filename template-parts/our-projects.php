@@ -1,4 +1,4 @@
-<section class="section-background">
+<section class="section-background home-section-background">
 
     <header class="section-background__header">
         <h2 class="section-background__title">Nasze realizacje</h2>
