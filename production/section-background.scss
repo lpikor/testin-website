@@ -160,6 +160,15 @@
             margin-top: 2rem;
         }
 
+        .career-section-background--mosaic {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 73%;
+            height: 100px;
+            background: url('assets/images/divider-background.webp');
+        }
+
         &.single-post-see-more {
             padding: 4rem 2rem 1rem;
         }
@@ -169,7 +178,7 @@
         }
 
         &.career-section-background {
-            padding: 4rem 2rem;
+            padding: 4rem 2rem 164px;
             margin: 4rem 0;
         }
 
@@ -182,7 +191,7 @@
             position: absolute;
             top: 102px;
             right: 0;
-            width: calc(50vw - -119px);
+            width: calc(50vw - 177px);
             height: 2px;
             background: $primaryContent;
             opacity: .25;
@@ -193,7 +202,12 @@
             margin: 0 auto;
         }
 
+        .career-section-background &__title {
+            text-align: right;
+        }
+
         .career-section-background &__paragraph {
+            text-align: right;
             margin-right: 0;
         }
 
@@ -271,7 +285,7 @@
         }
         
         &.career-section-background::after {
-            width: calc(50vw - 10px);
+            width: calc(50vw - 305px);
         }
     }
 }
@@ -288,7 +302,11 @@
         }
         
         &.career-section-background::after {
-            width: calc(50vw - 52px);
+            width: calc(50vw - 348px);
+        }
+
+        .career-section-background &__paragraph {
+            max-width: 932px;
         }
     }
 }
@@ -305,7 +323,7 @@
         }
         
         &.career-section-background::after {
-            width: calc(50vw - 60px);
+            width: calc(50vw - 357px);
         }
     }
 }

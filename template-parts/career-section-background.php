@@ -7,4 +7,5 @@
         <p class="section-background__paragraph">Firma Testin, agencja interaktywna z Rzeszowa, to miejsce, gdzie w życzliwej atmosferze, przy elastycznym podejściu do pracownika, rozwiniesz swoje skrzydła.</p>
     </div>
 
+    <div class="career-section-background--mosaic"></div>
 </section>
