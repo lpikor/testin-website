@@ -69,5 +69,15 @@
         &.about-us-see-our-projects {
             align-items: center;
         }
+
+        .about-us-see-our-projects &__header {
+            text-align: left;
+            max-width: 482px;
+        }
+
+        .about-us-see-our-projects &__description {
+            text-align: left;
+            max-width: 480px;
+        }
     }
 }
