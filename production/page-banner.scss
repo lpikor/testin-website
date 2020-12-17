@@ -181,6 +181,7 @@
 
         &-container.projects-page-banner-img-container {
             position: relative;
+            padding-bottom: 100px;
         }
 
         &-container.projects-page-banner-img-container::after {
@@ -507,5 +508,71 @@
                 color: $marketingContent;
             }
         }
+    }
+}
+
+@media (min-width: 1024px) {
+    .projects-child-header-container {
+        position: relative;
+
+        & .page-banner-no-img {
+            max-width: 1000px;
+        }
+    }
+
+    .projects-child-header-container::after {
+        content: '';
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: calc(50vw - 91px);
+        height: 2px;
+        background: $primaryContent;
+        opacity: .25;
+    }
+
+    .allplans-page-header-container::after {
+        background: $allplansContent;
+    }
+
+    .artur-kucharzyk-page-header-container::after {
+        background: $arturKucharzykContent;
+    }
+
+    .elproma-page-header-container::after {
+        background: $elpromaContent;
+    }
+
+    .boram-page-header-container::after {
+        background: $boramContent;
+    }
+
+    .gamrat-wpc-page-header-container::after {
+        background: $gamratWpcContent;
+    }
+
+    .magnum-page-header-container::after {
+        background: $magnumContent;
+    }
+
+    .pogotowie-warzywne-page-header-container::after {
+        width: calc(50vw - 34px);
+        background: $pogotowieWarzywneContent;
+    }
+
+    .polska-kulturalna-page-header-container::after {
+        background: $polskaKulturalnaContent;
+    }
+
+    .rodo-maruta-page-header-container::after {
+        background: $rodoMarutaContent;
+    }
+
+    .vidok-page-header-container::after {
+        background: $vidokContent;
+    }
+
+    .zdrojowisko-page-header-container::after {
+        background: $zdrojowiskoContent;
     }
 }
