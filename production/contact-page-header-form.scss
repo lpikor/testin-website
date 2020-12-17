@@ -16,7 +16,7 @@
 
         & .contact-form {
             flex-basis: 70%;
-            max-width: 1164px;
+            // max-width: 1164px;
         }
     }
 
@@ -40,15 +40,6 @@
 
         & .contact-form {
             flex-basis: 60%;
-        }
-    }
-}
-
-@media (min-width: 1366px) {
-    .contact-page-header-form {
-
-        & .contact-form {
-            flex-basis: 50%;
         }
     }
 }
