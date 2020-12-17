@@ -83,7 +83,7 @@
         }
 
         &__note-count {
-            font-size: 4rem;
+            font-size: 72px;
         }
 
         &__desktop {
@@ -286,6 +286,10 @@
 
         .allplans-content &__note:nth-child(5) {
             top: -2250px;
+        }
+
+        .allplans-content &__note:nth-child(1) &__note-text {
+            max-width: 430px;
         }
 
 

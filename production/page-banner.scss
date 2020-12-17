@@ -37,6 +37,10 @@
         &__title {
             letter-spacing: 4px;
         }
+
+        .projects-child-header-container &__title {
+            font-size: 48px;
+        }
     }
 }
 
@@ -512,6 +516,7 @@
 }
 
 @media (min-width: 1024px) {
+
     .projects-child-header-container {
         position: relative;
 
@@ -523,7 +528,7 @@
     .projects-child-header-container::after {
         content: '';
         position: absolute;
-        top: 70px;
+        top: 85px;
         right: 0;
         width: calc(50vw - 91px);
         height: 2px;
@@ -533,6 +538,10 @@
 
     .allplans-page-header-container::after {
         background: $allplansContent;
+    }
+
+    .allplans-content {
+        position: relative;
     }
 
     .artur-kucharzyk-page-header-container::after {
@@ -574,5 +583,40 @@
 
     .zdrojowisko-page-header-container::after {
         background: $zdrojowiskoContent;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .allplans-content::before {
+        content: url('assets/images/allplans-circles.webp');
+        position: absolute;
+        top: 0;
+        right: 900px;
+        z-index: -1;
+    }
+
+    .allplans-content::after {
+        content: url('assets/images/allplans-tree-icon.webp');
+        position: absolute;
+        top: 800px;
+        right: 1150px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .allplans-content::before {
+        content: url('assets/images/allplans-circles.webp');
+        position: absolute;
+        top: 0;
+        right: 1300px;
+    }
+
+    .allplans-content::after {
+        content: url('assets/images/allplans-tree-icon.webp');
+        position: absolute;
+        top: 800px;
+        right: 1380px;
     }
 }
