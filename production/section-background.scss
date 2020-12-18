@@ -94,6 +94,18 @@
             margin-left: auto;
         }
 
+        .shops-section-background &__content {
+            margin-right: 0;
+            margin-left: auto;
+            max-width: 600px;
+        }
+
+        .shops-section-background &__description {
+            margin-right: auto;
+            margin-left: 0;
+            max-width: 531px;
+        }
+
         &.home-section-background::after {
             content: '';
             position: absolute;
@@ -334,7 +346,7 @@
         &.shops-section-background {
             position: relative;
         }
-        
+
         &.shops-section-background::after {
             content: url('assets/images/okrag-z-lewej.webp');
             position: absolute;

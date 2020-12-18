@@ -2,7 +2,9 @@
 
     <header class="section-background__header">
         <h2 class="section-background__title">Nasze realizacje</h2>
-        <p class="section-background__description">Nie słowa a czyny. O wykonanych przez nas stronach moglibyśmy wiele napisać, ale warto je pokazać w całości. Zobacz, jak prezentują się dotychczasowe realizacje.</p>
+        <div class="section-background__content">
+            <p class="section-background__description">Nie słowa a czyny. O wykonanych przez nas stronach moglibyśmy wiele napisać, ale warto je pokazać w całości. Zobacz, jak prezentują się dotychczasowe realizacje.</p>
+        </div>
     </header>
     
     <div class="our-projects">
