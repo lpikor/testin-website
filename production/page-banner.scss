@@ -133,6 +133,16 @@
             margin-left: auto;
             margin-right: 0;
         }
+
+        .print-page-header &__description {
+            max-width: 361px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .print-page-header &__img-container {
+            flex-basis: 62%;
+        }
     }
 }
 
