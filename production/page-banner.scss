@@ -127,6 +127,12 @@
             position: relative;
             left: 110px;
         }
+
+        .branding-page-header &__description {
+            max-width: 374px;
+            margin-left: auto;
+            margin-right: 0;
+        }
     }
 }
 
