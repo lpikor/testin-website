@@ -331,6 +331,17 @@
 @media (min-width: 1440px) {
     .section-background {
 
+        &.shops-section-background {
+            position: relative;
+        }
+        
+        &.shops-section-background::after {
+            content: url('assets/images/okrag-z-lewej.webp');
+            position: absolute;
+            top: 450px;
+            right: 1650px;
+        }
+
         .section-background-about-us &__text {
             flex-direction: row;
             align-items: flex-start;
