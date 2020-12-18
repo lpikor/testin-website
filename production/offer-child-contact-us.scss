@@ -141,6 +141,7 @@
 
         &.print-contact-us::before {
             background-image: url('assets/images/divider-background-red.webp');
+            background-size: cover;
         }
 
         .print-contact-us &__header {

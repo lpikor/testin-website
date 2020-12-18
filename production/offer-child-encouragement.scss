@@ -111,6 +111,7 @@
         
         &.print-encouragement::before {
             background: url('assets/images/divider-background-red.webp');
+            background-size: cover;
         }
     }
 }
