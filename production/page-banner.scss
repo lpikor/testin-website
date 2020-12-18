@@ -122,6 +122,11 @@
         &__motto-container {
             flex-basis: 45%;
         }
+
+        .marketing-page-header &__title {
+            position: relative;
+            left: 110px;
+        }
     }
 }
 
