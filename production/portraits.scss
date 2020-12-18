@@ -86,11 +86,21 @@
         }
 
         &__item-title {
+            height: 66px;
             letter-spacing: 0;
         }
 
         .contact-questions &__item {
             max-width: 300px;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .portraits {
+
+        .contact-questions &__item {
+            max-width: 350px;
         }
     }
 }
@@ -113,6 +123,10 @@
 
         &__item-title {
             letter-spacing: 2px;
+        }
+
+        .contact-questions &__item-title {
+            letter-spacing: 0;
         }
     }
 }
