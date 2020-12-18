@@ -43,7 +43,7 @@
         margin: 8rem auto 0;
 
         &__header {
-            max-width: 800px;
+            max-width: 640px;
             margin-right: 0;
         }
 
@@ -103,7 +103,7 @@
         position: absolute;
         top: 98px;
         right: 0;
-        width: calc(50vw - -304px);
+        width: calc(50vw - -142px);
         height: 2px;
         background: $primaryContent;
         opacity: .25;
@@ -129,14 +129,14 @@
 @media (min-width: 1280px) {
 
     .offer-child-how-steps-container::after {
-        width: calc(50vw - -175px);
+        width: calc(50vw - -14px);
     }
 }
 
 @media (min-width: 1366px) {
 
     .offer-child-how-steps-container::after {
-        width: calc(50vw - -157px);
+        width: calc(50vw - 2px);
     }
 }
 
