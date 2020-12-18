@@ -51,6 +51,10 @@
             font-size: 3rem;
         }
 
+        &__description {
+            max-width: 700px;
+        }
+
         & .triple-cards {
             margin: 4rem 0;
 
@@ -60,6 +64,10 @@
 
             &__title {
                 padding: 0 1rem;
+            }
+
+            &__description-strong {
+                height: 224px;
             }
         }
 
