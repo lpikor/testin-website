@@ -125,10 +125,32 @@
     }
 }
 
+@media (min-width: 1280px) {
+    .page-banner-motto {
+
+        .shops-page-header &__img-container {
+            margin-top: 85px;
+        }
+
+        .shops-page-header &__title {
+            position: absolute;
+        }
+    }
+}
+
 @media (min-width: 1366px) {
     .page-banner-motto {
         .websites-page-header &__img-container {
             flex-basis: 56%;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .page-banner-motto {
+
+        .shops-page-header &__img-container {
+            margin-top: 130px;
         }
     }
 }
