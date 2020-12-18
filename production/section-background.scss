@@ -94,6 +94,21 @@
             margin-left: auto;
         }
 
+        &.shops-section-background {
+            margin-bottom: 200px;
+        }
+
+        &.shops-section-background::after {
+            content: '';
+            position: absolute;
+            top: 137px;
+            right: 0;
+            width: calc(50vw - -116px);
+            height: 2px;
+            background: $shopContent;
+            opacity: .25;
+        }
+
         .shops-section-background &__content {
             margin-right: 0;
             margin-left: auto;
@@ -288,6 +303,10 @@
 @media (min-width: 1280px) {
     .section-background {
 
+        &.shops-section-background::after {
+            width: calc(50vw - 9px);
+        }
+
         &.home-section-background::after {
             width: calc(50vw - 9px);
         }
@@ -304,6 +323,10 @@
 
 @media (min-width: 1366px) {
     .section-background {
+
+        &.shops-section-background::after {
+            width: calc(50vw - 49px);
+        }
 
         &.home-section-background::after {
             width: calc(50vw - 53px);
@@ -326,6 +349,10 @@
 @media (min-width: 1440px) {
     .section-background {
 
+        &.shops-section-background::after {
+            width: calc(50vw - 60px);
+        }
+
         &.home-section-background::after {
             width: calc(50vw - 60px);
         }
@@ -343,15 +370,15 @@
 @media (min-width: 1440px) {
     .section-background {
 
-        &.shops-section-background {
+        .shops-section-background &__header {
             position: relative;
         }
 
-        &.shops-section-background::after {
+        .shops-section-background &__header::after {
             content: url('assets/images/okrag-z-lewej.webp');
             position: absolute;
-            top: 450px;
-            right: 1650px;
+            top: 370px;
+            right: 1346px;
         }
 
         .section-background-about-us &__text {
