@@ -1,6 +1,6 @@
 <div class="page-banner-motto websites-page-header">
     <div class="page-banner-motto__img-container">
-        <img src="<?php bloginfo('template_directory'); ?>/assets/images/panther-laying.webp" alt="" class="page-banner-motto__img">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/inna-pantera.webp" alt="" class="page-banner-motto__img">
         <p class="page-banner-motto__title">Strony www</p>
     </div>
     <div class="page-banner-motto__motto-container">

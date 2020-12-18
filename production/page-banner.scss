@@ -125,6 +125,14 @@
     }
 }
 
+@media (min-width: 1366px) {
+    .page-banner-motto {
+        .websites-page-header &__img-container {
+            flex-basis: 56%;
+        }
+    }
+}
+
 .page-banner-img {
     
     text-align: center;
