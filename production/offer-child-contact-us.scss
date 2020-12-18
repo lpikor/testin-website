@@ -136,6 +136,7 @@
 
         &.branding-contact-us::before {
             background-image: url('assets/images/divider-background-purple.webp');
+            background-size: cover;
         }
 
         &.print-contact-us::before {

@@ -106,6 +106,7 @@
         
         &.branding-encouragement::before {
             background: url('assets/images/divider-background-purple.webp');
+            background-size: cover;
         }
         
         &.print-encouragement::before {

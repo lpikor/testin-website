@@ -24,6 +24,7 @@
 
     &.home-contact-us-bottom--branding::before {
         background: url('assets/images/divider-background-purple.webp');
+        background-size: cover;
     }
 
     &.home-contact-us-bottom--print::before {

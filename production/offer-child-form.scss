@@ -123,6 +123,7 @@
 
         &.branding-form::after {
             background: url('assets/images/divider-background-purple.webp');
+            background-size: cover;
         }
 
         &.print-form::after {
