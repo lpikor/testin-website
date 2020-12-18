@@ -1,7 +1,7 @@
 <div class="page-banner-img-container about-us-page-header-container">
     <div class="page-banner-img about-us-page-header">
         <div class="page-banner-img__img-container">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/images/panther-people.webp" alt="" class="page-banner-img__img">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/inna-grafika-z-kotem.webp" alt="" class="page-banner-img__img">
         </div>
         <header class="page-banner-img__header">
             <h1 class="page-banner-img__title">Kim jesteśmy</h1>

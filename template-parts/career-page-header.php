@@ -5,7 +5,7 @@
         </div>
         <header class="page-banner-img__header">
             <h1 class="page-banner-img__title">Dołącz do naszego zespołu!</h1>
-            <p class="page-banner-img__description">Szukasz pracy, do której każdego dnia będziesz przychodził z uśmiechem na twarzy? Gdzie podniesiesz swoje kwalifikacje, nawiążesz nowe, ciekawe znajomości i wykorzystasz potencjał, który w Tobie drzemie?</p>
+            <p class="page-banner-img__description">Szukasz pracy, do której każdego dnia będziesz przychodził<br />z uśmiechem na twarzy? Gdzie podniesiesz swoje kwalifikacje, nawiążesz nowe, ciekawe znajomości i wykorzystasz potencjał, który w Tobie drzemie?</p>
         </header>
     </div>
 </div>

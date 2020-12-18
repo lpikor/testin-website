@@ -230,6 +230,37 @@
             font-size: 3rem;
         }
 
+        &.career-page-header {
+            display: block;
+            padding-bottom: 300px;
+        }
+
+        .career-page-header &__header {
+            flex-basis: initial;
+            max-width: 880px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .career-page-header &__description {
+            max-width: 498px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .career-page-header &__img-container {
+            position: absolute;
+            top: 50px;
+        }
+
+        .career-page-header &__img {
+            max-height: 500px;
+        }
+
+        .about-us-page-header &__img-container {
+            flex-basis: 52%;
+        }
+
         .projects-page-banner-img &__header {
             max-width: 550px;
         }
@@ -306,9 +337,9 @@
         &-container.career-page-header-container::before {
             content: '';
             position: absolute;
-            top: 211px;
+            top: 67px;
             right: 0;
-            width: calc(50vw - 35px);
+            width: calc(50vw - -380px);
             height: 2px;
             background: $primaryContent;
             opacity: .25;
@@ -341,8 +372,7 @@
         }
 
         &-container.career-page-header-container::before {
-            top: 192px;
-            width: calc(50vw - 43px);
+            width: calc(50vw - -250px);
         }
     }
 }
@@ -365,6 +395,10 @@
 
         &-container.about-us-page-header-container::before {
             width: calc(50vw - 105px);
+        }
+
+        &-container.career-page-header-container::before {
+            width: calc(50vw - -232px);
         }
     }
 }
@@ -543,17 +577,6 @@
         }
     }
 }
-
-
-
-.career-page-header {
-    & .page-banner-img {
-        &__header {
-            max-width: 600px;
-        }
-    }
-}
-
 
 
 @media (min-width: 1024px) {
